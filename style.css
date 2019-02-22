@@ -1,3 +1,16 @@
 body {
       background: #000;
 }
+
+.coin {
+      background: yellow;
+      position: absolute;
+      margin: 0 auto;
+      width: 30%;
+      height: 30%;]
+      border: 5px solid #efefef;
+}
+
+.table {
+
+}
