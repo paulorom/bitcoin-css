@@ -5,10 +5,13 @@ body {
 .coin {
       background: yellow;
       position: absolute;
+      top: 30%;
+      left: 20%;
       margin: 0 auto;
       width: 30%;
-      height: 30%;]
+      height: 30%;
       border: 5px solid #efefef;
+      border-radius: 50%;
 }
 
 .table {
