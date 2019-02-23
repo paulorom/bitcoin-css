@@ -1,17 +1,42 @@
 body {
-      background: #000;
+      background-color: #36021e;
+      background-image: linear-gradient(to bottom, #030e20, #c4afac);
 }
 
 .coin {
-      background: yellow;
+      
       position: absolute;
       top: 30%;
       left: 20%;
       margin: 0 auto;
-      width: 30%;
-      height: 30%;
-      border: 5px solid #efefef;
-      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      border-radius: 80%;
+      background-image: linear-gradient(45deg, #D4954D 15%,#9d641d 44%, #111202 86%);
+      background-clip: padding-box;
+      border: 8px solid transparent;    
+}
+
+.coin:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -8px; 
+      border-radius: 80%;
+      background: linear-gradient(to right, blue, green);
+      box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;
+}
+
+.coin:after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -8px; 
+      border-radius: 80%;
+      background: linear-gradient(to right, red, orange);
+      box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;
 }
 
 .table {
