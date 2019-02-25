@@ -1,22 +1,17 @@
 body {
-      background-color: #36021e;
-      background-image: linear-gradient(to bottom, #030e20, #c4afac);
+      background-color: #000;
 }
 
-.coin {
-      
+.coin {      
       position: absolute;
-      top: 30%;
-      left: 20%;
-      margin: 0 auto;
-      width: 300px;
-      height: 300px;
+      top: 21%;
+      left: 13%;
+      width: 450px;
+      height: 450px;
       border-radius: 80%;
-      background-image: linear-gradient(45deg, #D4954D 15%,#9d641d 44%, #111202 86%);
-      background-clip: padding-box;
-      border: 8px solid transparent;    
+      background-image: linear-gradient(-20deg, #8a430f 15%,#e8b919 50%, #8a430f 86%);   
 }
-
+/*
 .coin:before {
       content: '';
       position: absolute;
@@ -26,19 +21,259 @@ body {
       border-radius: 80%;
       background: linear-gradient(to right, blue, green);
       box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;
-}
+}*/
 
 .coin:after {
       content: '';
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
       z-index: -1;
-      margin: -8px; 
+      margin: -12px; 
       border-radius: 80%;
-      background: linear-gradient(to right, red, orange);
-      box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;
+      background: linear-gradient(to bottom, #f1cc3a, #d29826);
+    /*  box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;*/
 }
 
-.table {
+.coin-message {
+
 
 }
+.coin-message div {
+      position: absolute;
+      width: 26rem;
+      height: 26rem;
+      top:0;left:0;bottom:0;right:0;
+      margin: auto;
+      border-radius: 50%;
+      transform: rotate(-85deg);
+      
+    }
+.coin-message div > span:first-child {
+      transform: translatex(13rem);
+    }
+    .coin-message span {
+      width: 0;
+      height: 26rem;
+      position: absolute;
+      top: 0; left: 0;
+      font-size: 0.8rem;
+      color: #f1cc3a;
+      text-align: left;
+      text-shadow: 1px 1px 0 #000;
+      line-height: 0;
+      transform: rotate(4deg);
+      vertical-align: top;
+      
+    }
+
+    
+    .inner-way-1 {
+      position: absolute;
+      top: 9.5%;
+      left: 9%;
+      width: 81%;
+      height: 81%;
+      border: 1px solid yellow;
+      border-radius: 250px;   
+    }
+
+    .inner-way-2 {
+      position: absolute;
+      top: 11%;
+      left: 11%;
+      width: 77%;
+      height: 77%;
+      border: 1px solid yellow;
+      border-radius: 250px;   
+    }
+
+
+    .inner-way-3 {
+      position: absolute;
+      top: 9.5%;
+      left: 9%;
+      width: 81%;
+      height: 81%;
+      border: 1px solid yellow;
+      border-radius: 250px;   
+    }
+
+    .inner-way-4 {
+      position: absolute;
+      top: 9.5%;
+      left: 9%;
+      width: 81%;
+      height: 81%;
+      border: 1px solid yellow;
+      border-radius: 250px;   
+    }
+
+    .inner-way-5 {
+      position: absolute;
+      top: 9.5%;
+      left: 9%;
+      width: 81%;
+      height: 81%;
+      border: 1px solid yellow;
+      border-radius: 250px;   
+    }
+
+
+
+    .dashed-border {
+      position: relative;
+      top: 7.5%;
+      width: 85%;
+      height: 85%;
+      margin: 0 auto;
+      font-size: 70px;
+      border: 1px solid yellow;
+      border-radius: 250px;
+      transform: rotate(115deg);  
+    }
+    .dashed-border span {     
+      width: 25px;
+      background: yellow;
+      height: 10px;     
+      line-height: 530px;
+      display:  none;
+      border-radius: 3px;
+      top: 46px;
+      left: 50px;
+      position: relative;
+      
+    }    
+    .dashed-border span:nth-of-type(1)  {
+      display: block;
+      transform: rotate(-46deg) translate(-2px) translateY(-2px);
+    }
+    .dashed-border span:nth-of-type(2)  {
+      display: block;
+      transform: rotate(-54deg) translateX(-27px) translateY(-11px);
+    }
+    .dashed-border span:nth-of-type(3)  {
+      display: block;
+      transform: rotate(-62deg) translateX(-51px) translateY(-21px);
+    }
+    .dashed-border span:nth-of-type(4)  {
+      display: block;
+      transform: rotate(-71deg) translateX(-72px) translateY(-33px);
+    }
+    .dashed-border span:nth-of-type(5)  {
+      display: block;
+      transform: rotate(-81deg) translateX(-89px) translateY(-48px);
+    }
+    .dashed-border span:nth-of-type(6)  {
+      display: block;
+      transform: rotate(-96deg) translateX(-97px) translateY(-73px);
+    }
+    .dashed-border span:nth-of-type(7)  {
+      display: block;
+      transform: rotate(-102deg) translateX(-113px) translateY(-83px);
+    }
+    .dashed-border span:nth-of-type(8)  {
+      display: block;
+      transform: rotate(-108deg) translateX(-175px) translateY(-67px);
+    }
+    .dashed-border span:nth-of-type(9)  {
+      display: block;
+      transform: rotate(-120deg) translateX(-200px) translateY(-77px);
+    }
+    .dashed-border span:nth-of-type(10)  {
+      display: block;
+      transform: rotate(-130deg) translateX(-225px) translateY(-87px);
+    }
+    .dashed-border span:nth-of-type(11)  {
+      display: block;
+      transform: rotate(140deg) translateX(-250px) translateY(-97px);
+    }
+    .dashed-border span:nth-of-type(12)  {
+      display: block;
+      transform: rotate(-150deg) translateX(-275px) translateY(-107px);
+    }
+    .dashed-border span:nth-of-type(13)  {
+      display: block;
+      transform: rotate(-160deg) translateX(-152px) translateY(-117px);
+    }
+    .dashed-border span:nth-of-type(14)  {
+      display: block;
+      transform: rotate(-170deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(15)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(17)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(18)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(19)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(20)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(21)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(22)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(23)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(24)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(25)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(26)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(27) {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(28)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(29)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(30)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(31)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(32)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+    .dashed-border span:nth-of-type(33)  {
+      display: block;
+      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+    }
+
+ 
+  
+
+   
+
