@@ -4,8 +4,8 @@ body {
 
 .coin {      
       position: absolute;
-      top: 21%;
-      left: 13%;
+      top: 4%;
+      left: 4%;
       width: 450px;
       height: 450px;
       border-radius: 80%;
@@ -46,12 +46,13 @@ body {
       margin: auto;
       border-radius: 50%;
       transform: rotate(-85deg);
-      
-    }
+}
+
 .coin-message div > span:first-child {
       transform: translatex(13rem);
-    }
-    .coin-message span {
+}
+
+.coin-message span {
       width: 0;
       height: 26rem;
       position: absolute;
@@ -63,11 +64,9 @@ body {
       line-height: 0;
       transform: rotate(4deg);
       vertical-align: top;
-      
-    }
+}
 
-    
-    .inner-way-1 {
+.inner-way-1 {
       position: absolute;
       top: 9.5%;
       left: 9%;
@@ -75,9 +74,9 @@ body {
       height: 81%;
       border: 1px solid yellow;
       border-radius: 250px;   
-    }
+}
 
-    .inner-way-2 {
+.inner-way-2 {
       position: absolute;
       top: 11%;
       left: 11%;
@@ -85,10 +84,10 @@ body {
       height: 77%;
       border: 1px solid yellow;
       border-radius: 250px;   
-    }
+}
 
 
-    .inner-way-3 {
+.inner-way-3 {
       position: absolute;
       top: 9.5%;
       left: 9%;
@@ -96,9 +95,9 @@ body {
       height: 81%;
       border: 1px solid yellow;
       border-radius: 250px;   
-    }
+}
 
-    .inner-way-4 {
+.inner-way-4 {
       position: absolute;
       top: 9.5%;
       left: 9%;
@@ -106,9 +105,9 @@ body {
       height: 81%;
       border: 1px solid yellow;
       border-radius: 250px;   
-    }
+}
 
-    .inner-way-5 {
+.inner-way-5 {
       position: absolute;
       top: 9.5%;
       left: 9%;
@@ -116,11 +115,9 @@ body {
       height: 81%;
       border: 1px solid yellow;
       border-radius: 250px;   
-    }
+}
 
-
-
-    .dashed-border {
+.dashed-border {
       position: relative;
       top: 7.5%;
       width: 85%;
@@ -130,8 +127,9 @@ body {
       border: 1px solid yellow;
       border-radius: 250px;
       transform: rotate(115deg);  
-    }
-    .dashed-border span {     
+}
+
+.dashed-border span {     
       width: 25px;
       background: yellow;
       height: 10px;     
@@ -141,12 +139,13 @@ body {
       top: 46px;
       left: 50px;
       position: relative;
-      
-    }    
-    .dashed-border span:nth-of-type(1)  {
+} 
+
+.dashed-border span:nth-of-type(1)  {
       display: block;
       transform: rotate(-46deg) translate(-2px) translateY(-2px);
-    }
+}
+
     .dashed-border span:nth-of-type(2)  {
       display: block;
       transform: rotate(-54deg) translateX(-27px) translateY(-11px);
@@ -173,103 +172,107 @@ body {
     }
     .dashed-border span:nth-of-type(8)  {
       display: block;
-      transform: rotate(-108deg) translateX(-175px) translateY(-67px);
+      transform: rotate(-114deg) translateX(-118px) translateY(-104px);
     }
     .dashed-border span:nth-of-type(9)  {
       display: block;
-      transform: rotate(-120deg) translateX(-200px) translateY(-77px);
+      transform: rotate(-124deg) translateX(-124px) translateY(-120px);
     }
     .dashed-border span:nth-of-type(10)  {
       display: block;
-      transform: rotate(-130deg) translateX(-225px) translateY(-87px);
+      transform: rotate(-135deg) translateX(-126px) translateY(-137px);
     }
     .dashed-border span:nth-of-type(11)  {
       display: block;
-      transform: rotate(140deg) translateX(-250px) translateY(-97px);
+      transform: rotate(-145deg) translateX(-129px) translateY(-152px);
     }
     .dashed-border span:nth-of-type(12)  {
       display: block;
-      transform: rotate(-150deg) translateX(-275px) translateY(-107px);
+      transform: rotate(-154deg) translateX(-134px) translateY(-163px);
     }
     .dashed-border span:nth-of-type(13)  {
       display: block;
-      transform: rotate(-160deg) translateX(-152px) translateY(-117px);
+      transform: rotate(-167deg) translateX(-127px) translateY(-183px);
     }
     .dashed-border span:nth-of-type(14)  {
       display: block;
-      transform: rotate(-170deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-179deg) translateX(-121px) translateY(-200px);
     }
     .dashed-border span:nth-of-type(15)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-190deg) translateX(-116px) translateY(-214px);
+    }
+    .dashed-border span:nth-of-type(16)  {
+      display: block;
+      transform: rotate(-201deg) translateX(-110px) translateY(-229px);
     }
     .dashed-border span:nth-of-type(17)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-211deg) translateX(-107px) translateY(-241px);
     }
     .dashed-border span:nth-of-type(18)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-220deg) translateX(-107px) translateY(-251px);
     }
     .dashed-border span:nth-of-type(19)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-230deg) translateX(-103px) translateY(-264px);
     }
     .dashed-border span:nth-of-type(20)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-241deg) translateX(-94px) translateY(-279px);
     }
     .dashed-border span:nth-of-type(21)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-246deg) translateX(-111px) translateY(-285px);
     }
     .dashed-border span:nth-of-type(22)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-256deg) translateX(-102px) translateY(-300px);
     }
     .dashed-border span:nth-of-type(23)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-272deg) translateX(-58px) translateY(-323px);
     }
     .dashed-border span:nth-of-type(24)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-281deg) translateX(-49px) translateY(-334px);
     }
     .dashed-border span:nth-of-type(25)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-291deg) translateX(-32px) translateY(-346px);
     }
     .dashed-border span:nth-of-type(26)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-298deg) translateX(-31px) translateY(-355px);
     }
     .dashed-border span:nth-of-type(27) {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-310deg) translateX(-20px) translateY(-360px);
     }
     .dashed-border span:nth-of-type(28)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-320deg) translateX(-10px) translateY(-370px);
     }
     .dashed-border span:nth-of-type(29)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-330deg) translateX(0) translateY(-380px);
     }
     .dashed-border span:nth-of-type(30)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-340deg) translateX(10px) translateY(-390px);
     }
     .dashed-border span:nth-of-type(31)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-350deg) translateX(20px) translateY(-400px);
     }
     .dashed-border span:nth-of-type(32)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(-360deg) translateX(30px) translateY(-410px);
     }
     .dashed-border span:nth-of-type(33)  {
       display: block;
-      transform: rotate(-99deg) translateX(-152px) translateY(-57px);
+      transform: rotate(10deg) translateX(40px) translateY(-420px);
     }
 
  
