@@ -10,12 +10,12 @@ body {
 .coin {      
       position: absolute;
       top: 4%;
-      left: 4%;
+      left: 500px;
       width: 450px;
       height: 450px;
       border-radius: 80%;
-      background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);  
-     
+      background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+      box-shadow: 0px -2px 0px 0px black;  
 }
 /*
 .coin:before {
@@ -67,7 +67,7 @@ body {
       top:0;left:0;bottom:0;right:0;
       margin: auto;
       border-radius: 50%;
-      transform: rotate(-85deg);
+      transform: rotate(-79deg);
 }
 
 .coin-message div > span:first-child {
@@ -79,23 +79,25 @@ body {
       height: 26rem;
       position: absolute;
       top: 0; left: 0;
-      font-size: 0.8rem;
+      font-size: 16px;
       color: #f3cd44;
       text-align: left;
-      text-shadow: 1px 1px 0 #000;
       line-height: 0;
-      transform: rotate(4deg);
+      transform: rotate(3.8deg);
       vertical-align: top;
+      font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 100;
 }
 
 .outside {
-  position: absolute;
-
-  top: 0;
-	width: 70vmin;
-	height: 70vmin;
-  background: #f3cd44;
-  clip-path: polygon(28% 71%, 40% 72%, 40% 80%, 45% 81%, 45% 71%, 50% 71%, 50% 80%, 55% 80%, 55% 73%, 55% 72%, 61% 71%, 65% 69%, 69% 66%, 72% 62%, 73% 58%, 73% 55%, 72% 52%, 71% 51%, 67% 48%, 66% 47%, 69% 43%, 70% 40%, 69% 35%, 66% 31%, 58% 28%, 58% 29%, 58% 28%, 55% 28%, 55% 18%, 49% 18%, 49% 28%, 45% 28%, 45% 19%, 39% 18%, 39% 28%, 27% 29%, 26% 35%, 34% 35%, 35% 66%, 29% 65%);
+      position: absolute;
+      top: 11px;
+      width: 460px;
+      left: -476px;
+      height: 460px;
+      background: #000000;
+      opacity: 0.6;
+      clip-path: polygon(28% 71%, 40% 73%, 40% 81%, 46.5% 81%, 46.5% 72%, 49.5% 72%, 49.5% 81%, 56% 81%, 56% 72%, 59% 72%,59% 71%,58% 72%,59% 72%,61% 72%, 63% 71%, 67% 69%, 71% 66%, 73% 62%, 74% 58%, 73% 55%, 72% 52%, 71% 51%, 67% 48%, 66% 47%, 69% 43%, 70% 40%, 69% 35%, 66% 31%, 58% 28%, 59% 29%, 58% 28%, 56% 28%, 56% 19%, 49% 19%, 49% 28%, 46% 28%, 46% 19%, 39% 19%, 39% 28%, 27% 29%, 27% 35.5%, 35% 35.5%, 35% 65%, 30% 65%);
 }
 
 .outside:after {
@@ -105,7 +107,7 @@ body {
       z-index: -1;
 
       margin: 8px 13px;
-  background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+  /*background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);*/
   clip-path: polygon(28% 71%, 40% 72%, 40% 80%, 45% 81%, 45% 71%, 50% 71%, 50% 80%, 55% 80%, 55% 73%, 55% 72%, 61% 71%, 65% 69%, 69% 66%, 72% 62%, 73% 58%, 73% 55%, 72% 52%, 71% 51%, 67% 48%, 66% 47%, 69% 43%, 70% 40%, 69% 35%, 66% 31%, 58% 28%, 58% 29%, 58% 28%, 55% 28%, 55% 18%, 49% 18%, 49% 28%, 45% 28%, 45% 19%, 39% 18%, 39% 28%, 27% 29%, 26% 35%, 34% 35%, 35% 66%, 29% 65%);
 }
 
@@ -120,7 +122,7 @@ body {
       font-size: 70px;
       border: 1px solid yellow;
       border-radius: 250px;
-      transform: rotate(115deg);  
+      transform: rotate(122deg);  
 }
 
 .dashed-border span {     
@@ -246,27 +248,27 @@ body {
     }
     .dashed-border span:nth-of-type(28)  {
       display: block;
-      transform: rotate(-320deg) translateX(-10px) translateY(-370px);
+      transform: rotate(-315deg) translateX(-7px) translateY(-373px);
     }
     .dashed-border span:nth-of-type(29)  {
       display: block;
-      transform: rotate(-330deg) translateX(0) translateY(-380px);
+      transform: rotate(-322deg) translateX(0) translateY(-380px);
     }
     .dashed-border span:nth-of-type(30)  {
       display: block;
-      transform: rotate(-340deg) translateX(10px) translateY(-390px);
+      transform: rotate(-339deg) translateX(73px) translateY(-377px);
     }
     .dashed-border span:nth-of-type(31)  {
       display: block;
-      transform: rotate(-350deg) translateX(20px) translateY(-400px);
+      transform: rotate(-343deg) translateX(63px) translateY(-381px);
     }
     .dashed-border span:nth-of-type(32)  {
       display: block;
-      transform: rotate(-360deg) translateX(30px) translateY(-410px);
+      transform: rotate(-359deg) translateX(132px) translateY(-364px);
     }
     .dashed-border span:nth-of-type(33)  {
       display: block;
-      transform: rotate(10deg) translateX(40px) translateY(-420px);
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
     }
 
  
