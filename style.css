@@ -10,13 +10,13 @@ body {
 
 .coin {      
     position: absolute;
-    top: 26px;
-    left: 25px;
-    opacity: 0.5;
+    top: 27px;
+    left: 525px;
+   
     width: 450px;
     height: 450px;
     border-radius: 80%;
-    background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+    background-image: linear-gradient(-20deg, #542a04 15%,#c46b17 50%, #8a430f 86%);
     box-shadow: 0px -2px 0px 0px black;
 }
 
@@ -101,7 +101,7 @@ body {
       left: 0;
       height: 460px;
       background: #f3cd44;
-      clip-path: polygon(28% 71%, 40% 73%, 40% 81%, 46.5% 81%, 46.5% 72%, 49.5% 72%, 49.5% 81%, 56% 81%, 56% 72%, 59% 72%,59% 71%,58% 72%,59% 72%,61% 72%, 63% 71%, 67% 69%, 71% 66%, 73% 62%, 74% 58%, 73% 55%, 72% 52%, 71% 51%, 67% 48%, 66% 47%, 69% 43%, 70% 40%, 69% 35%, 66% 31%, 58% 28%, 59% 29%, 58% 28%, 56% 28%, 56% 19%, 49% 19%, 49% 28%, 46% 28%, 46% 19%, 39% 19%, 39% 28%, 27% 29%, 27% 35.5%, 35% 35.5%, 35% 65%, 30% 65%);
+      clip-path: polygon(28% 71%, 40% 72%, 40% 80%, 46% 80%, 46% 71.5%, 49% 71.5%, 49% 80%, 56% 80%, 56% 72%, 55.5% 28%, 55.5% 18%, 49% 18%, 49% 28%, 45% 28%, 45% 18%, 39% 18%, 39% 28%, 27% 28%, 27% 34.5%, 35% 34.5%, 35% 64%, 29.5% 64%);
 }
 
 .bitcoin-symbol:after {
@@ -111,7 +111,49 @@ body {
       z-index: -1;
       margin: 8px 13px;
       background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
-      clip-path: polygon(28% 71%, 41% 72%, 41% 80%, 45% 80%, 45% 71%, 51% 71%, 51% 80%, 55% 80%, 55% 73%, 55% 71%, 61% 71%, 65% 69%, 69% 66%, 72% 62%, 73% 58%, 73% 55%, 72% 52%, 71% 51%, 67% 48%, 66% 47%, 69% 43%, 70% 40%, 69% 35%, 66% 31%, 58% 29%, 57% 30%, 60% 29%, 55% 29%, 55% 19%, 50% 19%, 50% 29%, 44% 29%, 44% 19%, 40% 19%, 40% 29%, 27% 29%, 27% 33%, 35% 33%, 35% 66%, 30% 66%);
+      clip-path: polygon(28% 71%, 40.5% 72%, 40.5% 80.3%, 45% 80.3%, 45% 71.5%, 50% 71.5%, 50% 80.3%, 55% 80.3%, 55% 73%, 55% 72%, 62% 71%, 66% 69%, 70% 66%, 73% 62%, 74% 58%, 73% 55%, 72% 52%, 72% 51%, 68% 48%, 65% 47%, 69% 43%, 70% 40%, 71% 35%, 67% 31%, 58% 27%, 57% 37%, 63% 28%, 55% 28%, 55% 18%, 50% 18%, 50% 28%, 44% 28%, 44% 18%, 39.5% 18%, 39.5% 28%, 27% 28%, 27% 33%, 35% 33%, 35% 65.5%, 29% 65.5%);
+}
+
+.b-ellipse-1 {
+  width: 111px;
+  position: absolute;
+  top: 132px;
+  left: 247px;
+  z-index: 11;
+  height: 115px;
+  background: #f3cd44;
+  clip-path: ellipse(63% at 9% 41%);
+}
+
+.b-ellipse-1:after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin: 8px 13px;
+  background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+  clip-path: ellipse(63% at 9% 41%);
+}
+
+.b-ellipse-2 {
+  width: 111px;
+  position: absolute;
+  top: 199px;
+  left: 246px;
+  z-index: 11;
+  height: 172px;
+  background: #f3cd44;
+  clip-path: ellipse(84% at -7% 38%);
+}
+
+.b-ellipse-2:after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin: 8px 13px;
+  background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+  clip-path: ellipse(84% at -7% 38%);
 }
 
 .path {
@@ -229,17 +271,17 @@ body {
       margin: 0 auto;
       font-size: 70px;
       border-radius: 250px;
-      transform: rotate(122deg); 
+      transform: rotate(123deg); 
       z-index: 10;
 }
 
 .dashed-border span {     
-      width: 25px;
+      width: 26px;
       background: #f3cd44;
       height: 10px;     
       line-height: 530px;
       display:  none;
-      border-radius: 3px;
+      border-radius: 2px;
       top: 46px;
       left: 50px;
       position: relative;
