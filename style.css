@@ -5,7 +5,8 @@ body {
 .coin {      
       position: absolute;
       top: 27px;
-      left: 525px;   
+      left: 25px;
+   
       width: 450px;
       height: 450px;
       border-radius: 80%;
@@ -41,7 +42,7 @@ body {
       background-position-x: center;
       background-size: cover;
       position: absolute;
-      top: -15px;
+      top: -13px;
       left: -15px;
       width: 530px;
       height: 530px;
@@ -90,66 +91,64 @@ body {
       left: 0;
       height: 460px;
       background: #f3cd44;
-      clip-path: polygon(28% 71%, 40% 72%, 40% 80%, 46% 80%, 46% 71.5%, 49% 71.5%, 49% 80%, 56% 80%, 56% 72%, 55.5% 28%, 55.5% 18%, 49% 18%, 49% 28%, 45% 28%, 45% 18%, 39% 18%, 39% 28%, 27% 28%, 27% 34.5%, 35% 34.5%, 35% 64%, 29.5% 64%);
+      clip-path: polygon(27% 28.5%, 39% 28%, 39% 18.5%, 46% 18.5%, 46% 28%, 49% 28%, 49% 18.5%, 56% 18.5%, 56% 81%, 49% 81%, 49% 72%, 46% 72%, 46% 81%, 40% 81%, 40% 72.5%, 28% 71.5%, 29% 64.5%, 35% 64.5%, 35% 35.5%, 27% 35.5%);
 }
 
 .bitcoin-symbol:after {
       content: '';
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
-      z-index: -1;
-      margin: 8px 13px;
       background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
-      clip-path: polygon(28% 71%, 40.5% 72%, 40.5% 80.3%, 45% 80.3%, 45% 71.5%, 50% 71.5%, 50% 80.3%, 55% 80.3%, 55% 73%, 55% 72%, 62% 71%, 66% 69%, 70% 66%, 73% 62%, 74% 58%, 73% 55%, 72% 52%, 72% 51%, 68% 48%, 65% 47%, 69% 43%, 70% 40%, 71% 35%, 67% 31%, 58% 27%, 57% 37%, 63% 28%, 55% 28%, 55% 18%, 50% 18%, 50% 28%, 44% 28%, 44% 18%, 39.5% 18%, 39.5% 28%, 26.5% 28%, 26.5% 33%, 35% 33%, 35% 65.5%, 29% 65.5%);
+      clip-path: polygon(28% 29.5%, 40% 29%, 40% 19.5%, 45% 19.5%, 45% 29%, 50% 29%, 50% 19.5%, 55% 19.5%, 55% 80%, 50% 80%, 50% 71%, 45% 71%, 45% 80%, 41% 80%, 41% 71.5%, 29.3% 70.5%, 30% 65.5%, 36% 65.5%, 36% 34.5%, 28% 34.5%);
 }
 
 .b-ellipse-1 {
-      width: 111px;
       position: absolute;
-      top: 128px;
-      left: 243px;
-      z-index: 11;
-      height: 115px;
+      top: 130px;
+      left: 253px;
+      z-index: 12;
+      margin: 0;
+      width: 70px;
+      height: 88px;
       background: #f3cd44;
-      clip-path: ellipse(63% at 9% 41%);
+      border-radius: 0px 157px 83px 0 / 0 140px 104px 0;
 }
 
 .b-ellipse-1:after {
       content: '';
       position: absolute;
       top: 4px;
-      right: 0;
-      bottom: 0;
       left: 0;
-      z-index: -1;
-      margin: 0;
+      z-index: 11;
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
       background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
-      clip-path: ellipse(57.5% at 11% 39%);
+      border-radius: 0px 157px 96px 0 / 0 140px 104px 0;
 }
 
 .b-ellipse-2 {
-      width: 111px;
       position: absolute;
-      top: 199px;
-      left: 243px;
-      z-index: 11;
-      margin: 3px 14px;
-      height: 169px;
+      top: 215px;
+      left: 253px;
+      z-index: 12;
+      margin: 0;
+      width: 83px;
+      height: 115px;
       background: #f3cd44;
-      clip-path: ellipse(84% at -7% 38%);
+      border-radius: 0 73px 134px 0 / 0 89px 126px 0;
 }
 
 .b-ellipse-2:after {
       content: '';
       position: absolute;
-      top: 2px;
-      right: 0;
-      bottom: 0;
+      top: -1px;
       left: 0;
-      z-index: -1;
-      margin: 0;
-      background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
-      clip-path: ellipse(84% at -10% 37%);
+      z-index: 11;
+      width: calc(100% - 4px);
+      height: calc(100% - 3px);
+      background-image: linear-gradient(-20deg, #ae5c14 14%,#c46b17 50%, #8a430f 86%);
+      border-radius: 0px 157px 68px 96px / 0 121px 99px 26px;
+      border-radius: 0 90px 134px 0 / 0 93px 126px 0;
 }
 
 .path {
