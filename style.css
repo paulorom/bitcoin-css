@@ -206,115 +206,114 @@ body {
 }
 
 .path-1 {
-      top: 33px;      
-      left: 33px;
+      top: 2.1em;
+      left: 2.1em;
       width: 384px;
       height: 384px;
-      z-index: 1;    
+      z-index: 2;
 }
 
 .path-2 {
-      top: 42px;
-      left: 42px;
-      width: 365px;
-      height: 365px;
+      top: 2.7em;
+      left: 2.7em;
+      width: 364px;
+      height: 364px;
       z-index: 2; 
 }
 
 .path-3 {
-      top: 48px;
-      left: 48px;
-      width: 353px;
-      height: 353px;
+      top: 3em;
+      left: 3em;
+      width: 354px;
+      height: 354px;
       z-index: 3;  
 }
 
 .path-4 {
-      top: 54px;
-      left: 54px;
-      width: 341px;
-      height: 341px;
+      top: 3.3em;
+      left: 3.3em;
+      width: 344px;
+      height: 344px;
       z-index: 4;  
 }
 
 .path-5 {
-      top: 59px;
-      left: 59px;
-      width: 329px;
-      height: 329px;
-      z-index: 5; 
+      top: 3.6em;
+      left: 3.6em;
+      width: 334px;
+      height: 334px;
+      z-index: 5;
 }
 
 .path-6 {
-      top: 65px;
-      left: 65px;
-      width: 317px;
-      height: 317px;
+      top: 3.9em;
+      left: 3.9em;
+      width: 324px;
+      height: 324px;
       z-index: 6;
 }
 
 .path-7 {
-      top: 71px;
-      left: 71px;
-      width: 305px;      
-      height: 305px;
-      z-index: 7;    
+      top: 4.2em;
+      left: 4.2em;
+      width: 314px;
+      height: 314px;
+      z-index: 7;
 }
 
 .path-8 {
-      top: 77px;
-      left: 77px;
-      width: 293px;      
-      height: 293px;
-      z-index: 8;    
+      top: 4.5em;
+      left: 4.5em;
+      width: 304px;
+      height: 304px;
+      z-index: 8;
 }
 
 .path-9 {
-      top: 82px;
-      left: 82px;
-      width: 281px;      
-      height: 281px;
-      z-index: 9;    
+      top: 4.8em;
+      left: 4.8em;
+      width: 294px;
+      height: 294px;
+      z-index: 9;
 }
 
 .path-10 {
-      top: 88px;
-      left: 88px;
-      width: 269px;      
-      height: 269px;
-      z-index: 10;    
+      top: 5.1em;
+      left: 5.1em;
+      width: 284px;
+      height: 284px;
+      z-index: 10;
 }
 
 .path-11{
-      top: 93px;
-      left: 93px;
-      width: 257px;      
-      height: 257px;
-      z-index: 11;    
+      top: 5.4em;
+      left: 5.4em;
+      width: 274px;
+      height: 274px;
+      z-index: 11;
 }
 
 .path-12{
-      top: 98px;
-      left: 98px;
-      width: 257px;      
-      height: 257px;
-      z-index: 11;    
+      top: 5.7em;
+      left: 5.7em;
+      width: 264px;
+      height: 264px;
+      z-index: 11;
 }
 .path-13 {
-      top: 103px;
-      left: 103px;
-      width: 257px;      
-      height: 257px;
-      z-index: 11;    
+      top: 6.1em;
+      left: 6.1em;
+      width: 254px;
+      height: 254px;
+      z-index: 11;  
 }
 .path-14{
-      top: 108px;
-      left: 108px;
-      width: 257px;      
-      height: 257px;
-      z-index: 11;    
+      top: 6.2em;
+      left: 6.2em;
+      width: 244px;
+      height: 244px;
+      z-index: 11; 
 }
-
 .path-1:after, .path-2:after, .path-3:after, .path-4:after, .path-5:after, .path-6:after, .path-7:after, .path-8:after, .path-9:after, .path-10:after, .path-11:after, .path-12:after, .path-13:after, .path-14:after  {
       clip-path: circle(50% at 50% 50%);
       content: '';
@@ -372,14 +371,14 @@ body {
 
 .trapezoid-3 {
       position: absolute;
-      top: 176px;
-      left: 68px;
-      width: 93px;
-      height: 132px;
+      top: 186px;
+      left: 51px;
+      width: 110px;
+      height: 96px;
       z-index: 13;
       clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
       background: #cdf842;
-      clip-path: polygon(100% 29%, 89% 29%, 73% 18%, 12% 57%, 18% 78%, 67% 100%, 76% 94%, 100% 94%);
+      clip-path: polygon(100% 29%, 76% 29%, 59% 14%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
 }
 
 .trapezoid-3:after {
@@ -388,19 +387,19 @@ body {
       width: 100%;
       height: 100%;
       background: #c46b17;
-      clip-path: polygon(100% 30%, 89% 30%, 73% 19%, 14% 57%, 19% 77%, 67% 99%, 76% 93%, 100% 93%);
+      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
 }
 
 .trapezoid-4 {
       position: absolute;
-      top: 182px;
+      top: 176px;
       left: 68px;
       width: 93px;
-      height: 132px;
+      height: 115px;
       z-index: 14;
       clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
       background: #cdf842;
-      clip-path: polygon(100% 29%, 89% 29%, 73% 18%, 12% 57%, 18% 78%, 67% 100%, 76% 94%, 100% 94%);
+      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
 }
 
 .trapezoid-4:after {
@@ -409,19 +408,19 @@ body {
       width: 100%;
       height: 100%;
       background: #c46b17;
-      clip-path: polygon(100% 30%, 89% 30%, 73% 19%, 14% 57%, 19% 77%, 67% 99%, 76% 93%, 100% 93%);
+      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
 }
 
 .trapezoid-5 {
       position: absolute;
-      top: 188px;
+      top: 176px;
       left: 68px;
       width: 93px;
-      height: 132px;
+      height: 115px;
       z-index: 15;
       clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
       background: #cdf842;
-      clip-path: polygon(100% 29%, 89% 29%, 73% 18%, 12% 57%, 18% 78%, 67% 100%, 76% 94%, 100% 94%);
+      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
 }
 
 .trapezoid-5:after {
@@ -430,19 +429,19 @@ body {
       width: 100%;
       height: 100%;
       background: #c46b17;
-      clip-path: polygon(100% 30%, 89% 30%, 73% 19%, 14% 57%, 19% 77%, 67% 99%, 76% 93%, 100% 93%);
+      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
 }
 
 .trapezoid-6 {
       position: absolute;
-      top: 194px;
+      top: 176px;
       left: 68px;
       width: 93px;
-      height: 132px;
+      height: 115px;
       z-index: 16;
       clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
       background: #cdf842;
-      clip-path: polygon(100% 29%, 89% 29%, 73% 18%, 12% 57%, 18% 78%, 67% 100%, 76% 94%, 100% 94%);
+      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
 }
 
 .trapezoid-6:after {
@@ -451,7 +450,7 @@ body {
       width: 100%;
       height: 100%;
       background: #c46b17;
-      clip-path: polygon(100% 30%, 89% 30%, 73% 19%, 14% 57%, 19% 77%, 67% 99%, 76% 93%, 100% 93%);
+      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
 }
 
 .dashed-border {
