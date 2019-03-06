@@ -34,7 +34,7 @@ body {
       margin: -12px; 
       border-radius: 80%;
       background: #f3cd44;   
-      border: 2px dashed black;    
+    /*  border: 2px dashed black;*/    
 }
 
 .coin-gab {
@@ -222,99 +222,94 @@ body {
 }
 
 .path-3 {
-      top: 3em;
-      left: 3em;
-      width: 354px;
-      height: 354px;
+      top: 3.0212em;
+      left: 3.0212em;
+      width: 353px;
+      height: 353px;
       z-index: 3;  
 }
 
 .path-4 {
-      top: 3.3em;
-      left: 3.3em;
-      width: 344px;
-      height: 344px;
+      top: 3.3424em;
+      left: 3.3424em;
+      width: 342px;
+      height: 342px;
       z-index: 4;  
 }
 
 .path-5 {
-      top: 3.6em;
-      left: 3.6em;
-      width: 334px;
-      height: 334px;
+      top: 3.6636em;
+      left: 3.6636em;
+      width: 331px;
+      height: 331px;
       z-index: 5;
 }
 
 .path-6 {
-      top: 3.9em;
-      left: 3.9em;
-      width: 324px;
-      height: 324px;
+      top: 3.9848em;
+      left: 3.9848em;
+      width: 320px;
+      height: 320px;
       z-index: 6;
 }
 
 .path-7 {
-      top: 4.2em;
-      left: 4.2em;
-      width: 314px;
-      height: 314px;
+      top: 4.306em;
+      left: 4.306em;
+      width: 309px;
+      height: 309px;
       z-index: 7;
 }
 
 .path-8 {
-      top: 4.5em;
-      left: 4.5em;
-      width: 304px;
-      height: 304px;
+      top: 4.6272em;
+      left: 4.6272em;
+      width: 298px;
+      height: 298px;
       z-index: 8;
 }
 
 .path-9 {
-      top: 4.8em;
-      left: 4.8em;
-      width: 294px;
-      height: 294px;
+      top: 4.9484em;
+      left: 4.9484em;
+      width: 287px;
+      height: 287px;
       z-index: 9;
 }
 
 .path-10 {
-      top: 5.1em;
-      left: 5.1em;
-      width: 284px;
-      height: 284px;
+      top: 5.2696em;
+      left: 5.2696em;
+      width: 276px;
+      height: 276px;
       z-index: 10;
 }
 
-.path-11{
-      top: 5.4em;
-      left: 5.4em;
-      width: 274px;
-      height: 274px;
+.path-11 {
+      top: 5.5908em;
+      left: 5.5908em;
+      width: 265px;
+      height: 265px;
       z-index: 11;
 }
 
-.path-12{
-      top: 5.7em;
-      left: 5.7em;
-      width: 264px;
-      height: 264px;
-      z-index: 11;
-}
-.path-13 {
-      top: 6.1em;
-      left: 6.1em;
+.path-12 {
+      top: 5.912em;
+      left: 5.912em;
       width: 254px;
       height: 254px;
-      z-index: 11;  
+      z-index: 12;
 }
-.path-14{
-      top: 6.2em;
-      left: 6.2em;
-      width: 244px;
-      height: 244px;
-      z-index: 11; 
+
+.path-13 {
+      top: 6.2332em;
+      left: 6.2332em;
+      width: 243px;
+      height: 243px;
+      z-index: 13;
 }
-.path-1:after, .path-2:after, .path-3:after, .path-4:after, .path-5:after, .path-6:after, .path-7:after, .path-8:after, .path-9:after, .path-10:after, .path-11:after, .path-12:after, .path-13:after, .path-14:after  {
+
+.path-1:after, .path-2:after, .path-3:after, .path-4:after, .path-5:after, .path-6:after, .path-7:after, .path-8:after, .path-9:after, .path-10:after, .path-11:after, .path-12:after, .path-13:after {
       clip-path: circle(50% at 50% 50%);
       content: '';
       position: absolute;
