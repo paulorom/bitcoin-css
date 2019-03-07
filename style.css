@@ -122,7 +122,7 @@ body {
       z-index: 22;
       width: calc(100% - 4px);
       height: calc(100% - 4px);
-      background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
+      background-image: linear-gradient(-20deg, #c36a17 15%,#c46b17 50%, #b05d14 86%);
       border-radius: 0px 157px 96px 0 / 0 140px 104px 0;
 }
 
@@ -146,7 +146,7 @@ body {
       z-index: 22;
       width: calc(100% - 4px);
       height: calc(100% - 3px);
-      background-image: linear-gradient(-20deg, #ae5c14 14%,#c46b17 50%, #8a430f 86%);
+      background-image: linear-gradient(-20deg, #9f5212 14%,#c46b17 50%, #c36a17 86%);
       border-radius: 0px 157px 68px 96px / 0 121px 99px 26px;
       border-radius: 0 90px 134px 0 / 0 93px 126px 0;
 }
@@ -202,7 +202,7 @@ body {
 .path {
       clip-path: circle(50% at 50% 50%);
       position: absolute;
-      background: #f9ff05;
+      background: #f3cd44;
 }
 
 .path-1 {
@@ -232,80 +232,82 @@ body {
 .path-4 {
       top: 3.3424em;
       left: 3.3424em;
+      top: 3.39em;
+      left: 3.39em;
       width: 342px;
       height: 342px;
       z-index: 4;  
 }
 
 .path-5 {
-      top: 3.6636em;
-      left: 3.6636em;
-      width: 331px;
-      height: 331px;
+      top: 3.7636em;
+      left: 3.7636em;
+      width: 330px;
+      height: 330px;
       z-index: 5;
 }
 
 .path-6 {
-      top: 3.9848em;
-      left: 3.9848em;
-      width: 320px;
-      height: 320px;
+      top: 4.1em;
+      left: 4.1em;
+      width: 319px;
+      height: 319px;
       z-index: 6;
 }
 
 .path-7 {
-      top: 4.306em;
-      left: 4.306em;
-      width: 309px;
-      height: 309px;
+      top: 4.45em;
+      left: 4.45em;
+      width: 307px;
+      height: 307px;
       z-index: 7;
 }
 
 .path-8 {
-      top: 4.6272em;
-      left: 4.6272em;
-      width: 298px;
-      height: 298px;
+      top: 4.8272em;
+      left: 4.8272em;
+      width: 295px;
+      height: 295px;
       z-index: 8;
 }
 
 .path-9 {
-      top: 4.9484em;
-      left: 4.9484em;
-      width: 287px;
-      height: 287px;
+      top: 5.17em;
+      left: 5.17em;
+      width: 284px;
+      height: 284px;
       z-index: 9;
 }
 
 .path-10 {
-      top: 5.2696em;
-      left: 5.2696em;
-      width: 276px;
-      height: 276px;
+      top: 5.525em;
+      left: 5.525em;
+      width: 273px;
+      height: 273px;
       z-index: 10;
 }
 
 .path-11 {
-      top: 5.5908em;
-      left: 5.5908em;
-      width: 265px;
-      height: 265px;
+      top: 5.85em;
+      left: 5.85em;
+      width: 262px;
+      height: 262px;
       z-index: 11;
 }
 
 .path-12 {
-      top: 5.912em;
-      left: 5.912em;
-      width: 254px;
-      height: 254px;
+      top: 6.2em;
+      left: 6.2em;
+      width: 251px;
+      height: 251px;
       z-index: 12;
 }
 
 .path-13 {
-      top: 6.2332em;
-      left: 6.2332em;
-      width: 243px;
-      height: 243px;
+      top: 6.58em;
+      left: 6.58em;
+      width: 239px;
+      height: 239px;
       z-index: 13;
 }
 
@@ -318,134 +320,97 @@ body {
       bottom: 0;
       left: 0;
       z-index: -1;
-      margin: 1px 1px;
+      margin: 1.5px 1.5px;
       background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
 }
 
+.trapezoid-back {
+      position: absolute;
+      top: 161px;
+      left: 51px;
+      width: 110px;
+      height: 136px;
+      z-index: 13;
+      background-image: linear-gradient(-20deg, #ba6416 15%,#bc6615 50%, #8a430f 86%);
+      clip-path: polygon(100% 0%, 80% 2%, 66% 24%, 23% 57%,28% 79%, 75% 100%, 100% 100%);
+}
 .trapezoid-1 {
       position: absolute;
-      top: 164px;
-      left: 68px;
-      width: 93px;
-      height: 132px;
-      z-index: 11;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 89% 29%, 75% 19%, 62% 32%, 60% 95%, 70% 99%, 77% 94%, 100% 94%);
-}
-
-.trapezoid-1:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 89% 30%, 74% 19%, 36% 57%, 20% 78%, 67% 99%, 76% 93%, 100% 93%);
+      top: 286px;
+      left: 132px;
+      width: 26px;
+      height: 7px;
+      transform: skewX(-45deg);
+      z-index: 14;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
 }
 
 .trapezoid-2 {
       position: absolute;
-      top: 176px;
-      left: 68px;
-      width: 93px;
-      height: 115px;
-      z-index: 12;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
+      top: 280px;
+      left: 121px;
+      width: 39px;
+      height: 7px;
+      transform: skewX(-45deg);
+      z-index: 14;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
 }
 
-.trapezoid-2:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
-}
 
 .trapezoid-3 {
       position: absolute;
-      top: 186px;
-      left: 51px;
-      width: 110px;
-      height: 96px;
-      z-index: 13;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 76% 29%, 59% 14%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
-}
-
-.trapezoid-3:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
+      top: 274px;
+      left: 113px;
+      width: 42px;
+      height: 8px;
+      transform: skewX(-45deg);
+      z-index: 14;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
 }
 
 .trapezoid-4 {
       position: absolute;
-      top: 176px;
-      left: 68px;
-      width: 93px;
-      height: 115px;
+      top: 268px;
+      left: 105px;
+      width: 50px;
+      height: 10px;
+      transform: skewX(-45deg);
       z-index: 14;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
-}
-
-.trapezoid-4:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
 }
 
 .trapezoid-5 {
       position: absolute;
-      top: 176px;
-      left: 68px;
-      width: 93px;
-      height: 115px;
-      z-index: 15;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
-}
-
-.trapezoid-5:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
+      top: 262px;
+      left: 97px;
+      width: 60px;
+      height: 10px;
+      transform: skewX(-45deg);
+      z-index: 14;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
 }
 
 .trapezoid-6 {
       position: absolute;
-      top: 176px;
-      left: 68px;
-      width: 93px;
-      height: 115px;
-      z-index: 16;
-      clip-path: polygon(16% 0%, 100% 0%, 100% 9%, 11% 9.8%);
-      background: #cdf842;
-      clip-path: polygon(100% 29%, 78% 29%, 59% 15%, 46% 30%, 46% 93%, 56% 100%, 65% 92%, 100% 92%);
-}
-
-.trapezoid-6:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #c46b17;
-      clip-path: polygon(100% 30%, 78% 30%, 57% 15%, 45% 29%, 45% 100%, 56% 99%, 64% 91%, 100% 91%);
+      top: 256px;
+      left: 88px;
+      width: 66px;
+      height: 11px;
+      transform: skewX(-45deg);
+      z-index: 14;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.6px solid #f3cd44;
 }
 
 .dashed-border {
