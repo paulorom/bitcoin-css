@@ -6,7 +6,7 @@ body {
       position: absolute;
       top: 27px;
       left: 25px;
-   
+      opacity: 0.5;
       width: 450px;
       height: 450px;
       border-radius: 80%;
@@ -199,13 +199,13 @@ body {
       border-radius: 0px 140px 100px 0 / 0 71px 84px 0;
 }
 
-.path {
+.circular {
       clip-path: circle(50% at 50% 50%);
       position: absolute;
       background: #f3cd44;
 }
 
-.path-1 {
+.circular-1 {
       top: 2.1em;
       left: 2.1em;
       width: 384px;
@@ -213,7 +213,7 @@ body {
       z-index: 2;
 }
 
-.path-2 {
+.circular-2 {
       top: 2.7em;
       left: 2.7em;
       width: 364px;
@@ -221,7 +221,7 @@ body {
       z-index: 2; 
 }
 
-.path-3 {
+.circular-3 {
       top: 3.0212em;
       left: 3.0212em;
       width: 353px;
@@ -229,7 +229,7 @@ body {
       z-index: 3;  
 }
 
-.path-4 {
+.circular-4 {
       top: 3.3424em;
       left: 3.3424em;
       top: 3.39em;
@@ -239,7 +239,7 @@ body {
       z-index: 4;  
 }
 
-.path-5 {
+.circular-5 {
       top: 3.7636em;
       left: 3.7636em;
       width: 330px;
@@ -247,7 +247,7 @@ body {
       z-index: 5;
 }
 
-.path-6 {
+.circular-6 {
       top: 4.1em;
       left: 4.1em;
       width: 319px;
@@ -255,7 +255,7 @@ body {
       z-index: 6;
 }
 
-.path-7 {
+.circular-7 {
       top: 4.45em;
       left: 4.45em;
       width: 307px;
@@ -263,7 +263,7 @@ body {
       z-index: 7;
 }
 
-.path-8 {
+.circular-8 {
       top: 4.8272em;
       left: 4.8272em;
       width: 295px;
@@ -271,7 +271,7 @@ body {
       z-index: 8;
 }
 
-.path-9 {
+.circular-9 {
       top: 5.17em;
       left: 5.17em;
       width: 284px;
@@ -279,7 +279,7 @@ body {
       z-index: 9;
 }
 
-.path-10 {
+.circular-10 {
       top: 5.525em;
       left: 5.525em;
       width: 273px;
@@ -287,7 +287,7 @@ body {
       z-index: 10;
 }
 
-.path-11 {
+.circular-11 {
       top: 5.85em;
       left: 5.85em;
       width: 262px;
@@ -295,7 +295,7 @@ body {
       z-index: 11;
 }
 
-.path-12 {
+.circular-12 {
       top: 6.2em;
       left: 6.2em;
       width: 251px;
@@ -303,7 +303,7 @@ body {
       z-index: 12;
 }
 
-.path-13 {
+.circular-13 {
       top: 6.58em;
       left: 6.58em;
       width: 239px;
@@ -311,7 +311,31 @@ body {
       z-index: 13;
 }
 
-.path-1:after, .path-2:after, .path-3:after, .path-4:after, .path-5:after, .path-6:after, .path-7:after, .path-8:after, .path-9:after, .path-10:after, .path-11:after, .path-12:after, .path-13:after {
+.circular-14 {
+      top: 6.93em;
+      left: 6.93em;
+      width: 228px;
+      height: 228px;
+      z-index: 14;
+}
+
+.circular-15 {
+      top: 7.3em;
+      left: 7.3em;
+      width: 217px;
+      height: 217px;
+      z-index: 15;
+}
+
+.circular-16 {
+      top: 7.7em;
+      left: 7.7em;
+      width: 206px;
+      height: 204px;
+      z-index: 16;
+}
+
+.circular-1:after, .circular-2:after, .circular-3:after, .circular-4:after, .circular-5:after, .circular-6:after, .circular-7:after, .circular-8:after, .circular-9:after, .circular-10:after, .circular-11:after, .circular-12:after, .circular-13:after, .circular-14:after, .circular-15:after, .circular-16:after {
       clip-path: circle(50% at 50% 50%);
       content: '';
       position: absolute;
@@ -324,93 +348,144 @@ body {
       background-image: linear-gradient(-20deg, #8a430f 15%,#c46b17 50%, #8a430f 86%);
 }
 
-.trapezoid-back {
+.horizontal-back {
       position: absolute;
-      top: 161px;
-      left: 51px;
-      width: 110px;
-      height: 136px;
-      z-index: 13;
+      top: 0;
+      left: 0;
+      width: 450px;
+      height: 450px;
+      z-index: 17;
       background-image: linear-gradient(-20deg, #ba6416 15%,#bc6615 50%, #8a430f 86%);
-      clip-path: polygon(100% 0%, 80% 2%, 66% 24%, 23% 57%,28% 79%, 75% 100%, 100% 100%);
+      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 53%, 77% 46%, 73% 35%, 62% 25%, 55% 24%, 53% 27%, 45% 27%, 42% 25%, 34% 29%, 26% 43%, 
+                  20% 49%, 17% 53%, 18% 58%, 30% 66%, 33% 73%, 43% 78%, 46% 69%, 56% 78%, 60% 77%, 70% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
 }
-.trapezoid-1 {
+
+.horizontal {
       position: absolute;
+      background: transparent;
+      border-top: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
+      z-index: 18;
+}
+
+.horizontal-top {
+      position: absolute;
+      background: transparent;
+      border-bottom: 1.5px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
+      z-index: 18;
+}
+
+.horizontal-top-1 {     
+      top: 193px;
+      left: 131px;
+      width: 21px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-2 {     
+      top: 199px;
+      left: 123px;
+      width: 37px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-3 {     
+      top: 205px;
+      left: 115px;
+      width: 38px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-4 {     
+      top: 211px;
+      left: 108px;
+      width: 44px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-5 {     
+      top: 217px;
+      left: 102px;
+      width: 49px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-6 {     
+      top: 223px;
+      left: 96px;
+      width: 56px;
+      height: 15px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-7 {     
+      top: 231px;
+      left: 90px;
+      width: 63px;
+      height: 13px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-8 {     
+      top: 238px;
+      left: 84px;
+      width: 74px;
+      height: 12px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-bottom-1 {     
       top: 286px;
       left: 132px;
       width: 26px;
       height: 7px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
 }
 
-.trapezoid-2 {
-      position: absolute;
+.horizontal-bottom-2 {
       top: 280px;
       left: 121px;
       width: 39px;
       height: 7px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
 }
 
-
-.trapezoid-3 {
-      position: absolute;
+.horizontal-bottom-3 {
       top: 274px;
       left: 113px;
       width: 42px;
       height: 8px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
 }
 
-.trapezoid-4 {
-      position: absolute;
+.horizontal-bottom-4 {
       top: 268px;
       left: 105px;
       width: 50px;
       height: 10px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
 }
 
-.trapezoid-5 {
-      position: absolute;
+.horizontal-bottom-5 {
       top: 262px;
       left: 97px;
       width: 60px;
       height: 10px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
 }
 
-.trapezoid-6 {
-      position: absolute;
+.horizontal-bottom-6 {
       top: 256px;
       left: 88px;
       width: 66px;
       height: 11px;
       transform: skewX(-45deg);
-      z-index: 14;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.6px solid #f3cd44;
 }
 
 .dashed-border {
