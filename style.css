@@ -356,22 +356,14 @@ body {
       height: 450px;
       z-index: 17;
       background-image: linear-gradient(-20deg, #ba6416 15%,#bc6615 50%, #8a430f 86%);
-      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 53%, 77% 46%, 73% 35%, 62% 25%, 55% 24%, 53% 27%, 45% 27%, 42% 25%, 34% 29%, 26% 43%, 
-                  20% 49%, 17% 53%, 18% 58%, 30% 66%, 33% 73%, 43% 78%, 46% 69%, 56% 78%, 60% 77%, 70% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
-}
-
-.horizontal {
-      position: absolute;
-      background: transparent;
-      border-top: 1.5px solid #f3cd44;
-      border-left: 1.5px solid #f3cd44;
-      z-index: 18;
+      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 51%, 77% 46%, 73% 35%, 62% 25%, 55% 24%, 53% 27%, 47% 27%, 42% 25%, 36% 28%, 27% 43%, 
+      20% 49%, 17% 54%, 18.5% 60%, 29% 66%, 33% 73%, 43% 78%, 42% 72%, 57% 78%, 59% 77%, 69% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
 }
 
 .horizontal-top {
       position: absolute;
       background: transparent;
-      border-bottom: 1.5px solid #f3cd44;
+      border-bottom: 1px solid #f3cd44;
       border-left: 1.5px solid #f3cd44;
       z-index: 18;
 }
@@ -431,13 +423,116 @@ body {
       height: 13px;
       transform: skewX(-135deg);
 }
-
 .horizontal-top-8 {     
-      top: 238px;
-      left: 84px;
-      width: 74px;
-      height: 12px;
+      top: 179px;
+      left: 389px;
+      width: 4px;
+      height: 1px;
+      border-left: 0;
+}
+
+.horizontal-top-9 {
+      top: 194px;
+      left: 404px;
+      width: 10px;
+      border-left: 0;
+      height: 1px;
+}
+
+.horizontal-top-10 {
+      top: 187px;
+      left: 391px;
+      width: 47px;
+      height: 13px;
       transform: skewX(-135deg);
+}
+
+.horizontal-top-11 {
+      top: 187px;
+      left: 391px;
+      width: 47px;
+      height: 13px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-12 {
+      top: 193px;
+      left: 386px;
+      width: 55px;
+      height: 14px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-13 {
+      top: 199px;
+      left: 380px;
+      width: 67px;
+      height: 14px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-14 {
+      top: 209px;
+      left: 374px;
+      width: 81px;
+      height: 10px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-15 {
+      top: 218px;
+      left: 370px;
+      width: 84px;
+      height: 8px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-16 {
+      top: 225px;
+      left: 364px;
+      width: 89px;
+      height: 7px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-17 {
+      top: 230px;
+      left: 357px;
+      width: 91px;
+      height: 8px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-18 {
+      top: 237px;
+      left: 352px;
+      width: 83px;
+      height: 8px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-19 {
+      top: 237px;
+      left: 352px;
+      width: 83px;
+      height: 8px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-20 {
+      top: 225px;
+      left: 337px;
+      width: 102px;
+      height: 27px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-bottom {
+      position: absolute;
+      background: transparent;
+      border-top: 1px solid #f3cd44;
+      border-left: 1.5px solid #f3cd44;
+      z-index: 18;
 }
 
 .horizontal-bottom-1 {     
@@ -484,6 +579,55 @@ body {
       top: 256px;
       left: 88px;
       width: 66px;
+      height: 11px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-7 {
+      top: 289px;
+      left: 360px;
+      width: 68px;
+      height: 25px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-8 {
+      top: 283px;
+      left: 357px;
+      width: 80px;
+      height: 25px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-9 {
+      top: 277px;
+      left: 353px;
+      width: 85px;
+      height: 25px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-10 {
+      top: 271px;
+      left: 353px;
+      width: 80px;
+      height: 18px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-11 {
+      top: 264px;
+      left: 350px;
+      width: 91px;
+      height: 17px;
+      transform: skewX(-45deg);
+}
+
+.horizontal-bottom-12 {
+      top: 258px;
+      left: 355px;
+      border-left: 0;
+      width: 95px;
       height: 11px;
       transform: skewX(-45deg);
 }
