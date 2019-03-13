@@ -37,7 +37,6 @@ body {
       margin: -12px;
       border-radius: 80%;
       background: #f3cd44;
-      /*  border: 2px dashed black;*/
 }
 
 .coin-gab {
@@ -53,134 +52,214 @@ body {
       z-index: -10;
 }
 
-.coin-message {
-      z-index: 1;
-}
-
-.coin-message div {
+.letters {
       position: absolute;
-      width: 26rem;
-      height: 26rem;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      margin: auto;
-      border-radius: 50%;
-      transform: rotate(-79deg);
-}
-
-.coin-message div > span:first-child {
-      transform: translatex(13rem);
-}
-
-.coin-message span {
-      width: 0;
-      height: 26rem;
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 16px;
-      color: #f3cd44;
-      text-align: left;
-      line-height: 0;
-      transform: rotate(3.8deg);
-      vertical-align: top;
-      font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: 100;
-}
-
-.estrellas {
-      position: relative;
-      /* width: 133px; */
-      /* height: 250px; */
-      margin: 0 auto;
-      top: 223px;
-      left: 39px;
       font-size: 17px;
-      transform: rotate(-172deg);
       color: #fff;
-    }
-    .estrellas span {
+}
+
+.letters span {
       position: absolute;
-      bottom: 0;
-      left: 63%;
-      width: 41px;
-      height: 219px;
-      margin-left: -35px;
+      top: 0;
+      left: 191px;
+      width: 56px;
+      height: 224px;
       line-height: 530px;
       text-align: center;
       transform-origin: top center;
-    }
-    .estrellas span:nth-of-type(1)  {
-      transform: rotate(-63deg);
-    }
-    .estrellas span:nth-of-type(2)  {
-      transform: rotate(-68deg);
-    }
-    .estrellas span:nth-of-type(3)  {
-      transform: rotate(170deg);
-    }
-    .estrellas span:nth-of-type(4)  {
-      transform: rotate(165deg);
-    }
-    .estrellas span:nth-of-type(5)  {
-      transform: rotate(160deg);
-    }
-    .estrellas span:nth-of-type(6)  {
-      transform: rotate(155deg);
-    }
-    .estrellas span:nth-of-type(7)  {
-      transform: rotate(150deg);
-    }
-    .estrellas span:nth-of-type(8)  {
-      transform: rotate(145deg);
-    }
-    .estrellas span:nth-of-type(9)  {
-      transform: rotate(140deg);
-    }
-    .estrellas span:nth-of-type(10)  {
-      transform: rotate(135deg);
-    }
-    .estrellas span:nth-of-type(11)  {
-      transform: rotate(130deg);
-    }
-    .estrellas span:nth-of-type(12)  {
-      transform: rotate(125deg);
-    }
-    .estrellas span:nth-of-type(13)  {
-      transform: rotate(120deg);
-    }
-    .estrellas span:nth-of-type(14)  {
-      transform: rotate(115deg);
-    }
-    .estrellas span:nth-of-type(15)  {
-      transform: rotate(110deg);
-    }
-    .estrellas span:nth-of-type(16)  {
-      transform: rotate(105deg);
-    }
-    .estrellas span:nth-of-type(17)  {
-      transform: rotate(100deg);
-    }
-    .estrellas span:nth-of-type(18)  {
-      transform: rotate(95deg);
-    }
-    .estrellas span:nth-of-type(19)  {
-      transform: rotate(90deg);
-    }
-    /* Reverse mode */
-    .inverso {
-      font-weight: bold;
-      z-index: 25;
-    }
-    .inverso span {
       line-height: 44px;
       transform-origin: bottom center;
       border: 1px solid red;
+}
+
+.letters span:nth-of-type(1)  {
+      transform: rotate(-75deg);
+}
+
+.letters span:nth-of-type(2)  {
+      transform: rotate(-71deg);
+}
+
+.letters span:nth-of-type(3)  {
+      transform: rotate(-67deg);
+}
+
+    .letters span:nth-of-type(4)  {
+      transform: rotate(-63deg);
     }
 
-.B-outline {
+    .letters span:nth-of-type(5)  {
+      transform: rotate(-59deg);
+    }
+
+    .letters span:nth-of-type(6)  {
+      transform: rotate(-55deg);
+    }
+
+    .letters span:nth-of-type(7)  {
+      transform: rotate(-51deg);
+    }
+
+    .letters span:nth-of-type(8)  {
+      transform: rotate(-54deg);
+    }
+
+    .letters span:nth-of-type(9)  {
+      transform: rotate(-51deg);
+    }
+
+    .letters span:nth-of-type(10)  {
+      transform: rotate(-48deg);
+    }
+
+    .letters span:nth-of-type(11)  {
+      transform: rotate(-45deg);
+    }
+
+    .letters span:nth-of-type(12)  {
+      transform: rotate(-42deg);
+    }
+
+    .letters span:nth-of-type(13)  {
+      transform: rotate(-39deg);
+    }
+
+    .letters span:nth-of-type(14)  {
+      transform: rotate(-36deg);
+    }
+
+    .letters span:nth-of-type(15)  {
+      transform: rotate(-33deg);
+    }
+
+    .letters span:nth-of-type(16)  {
+      transform: rotate(-30deg);
+    }
+
+    .letters span:nth-of-type(17)  {
+      transform: rotate(-27deg);
+    }
+
+    .letters span:nth-of-type(18)  {
+      transform: rotate(-24deg);
+    }
+
+    .letters span:nth-of-type(19)  {
+      transform: rotate(-21deg);
+    }
+
+    .letters span:nth-of-type(20)  {
+      transform: rotate(-19deg);
+    }
+
+    .letters span:nth-of-type(21)  {
+      transform: rotate(-16deg);
+    }
+
+    .letters span:nth-of-type(22)  {
+      transform: rotate(-13deg);
+    }
+
+    .letters span:nth-of-type(23)  {
+      transform: rotate(-10deg);
+    }
+
+    .letters span:nth-of-type(24)  {
+      transform: rotate(-7deg);
+    }
+
+    .letters span:nth-of-type(25)  {
+      transform: rotate(-4deg);
+    }
+
+    .letters span:nth-of-type(26)  {
+      transform: rotate(-1deg);
+    }
+
+    .letters span:nth-of-type(27)  {
+      transform: rotate(2deg);
+    }
+
+    .letters span:nth-of-type(28)  {
+      transform: rotate(5deg);
+    }
+
+    .letters span:nth-of-type(29)  {
+      transform: rotate(8deg);
+    }
+
+    .letters span:nth-of-type(30)  {
+      transform: rotate(11deg);
+    }
+
+    .letters span:nth-of-type(31)  {
+      transform: rotate(14deg);
+    }
+
+    .letters span:nth-of-type(32)  {
+      transform: rotate(17deg);
+    }
+
+    .letters span:nth-of-type(33)  {
+      transform: rotate(20deg);
+    }
+
+    .letters span:nth-of-type(34)  {
+      transform: rotate(23deg);
+    }
+
+    .letters span:nth-of-type(35)  {
+      transform: rotate(26deg);
+    }
+
+    .letters span:nth-of-type(36)  {
+      transform: rotate(29deg);
+    }
+
+    .letters span:nth-of-type(37)  {
+      transform: rotate(32deg);
+    }
+
+    .letters span:nth-of-type(38)  {
+      transform: rotate(35deg);
+    }
+
+    .letters span:nth-of-type(39)  {
+      transform: rotate(38deg);
+    }
+
+    .letters span:nth-of-type(40)  {
+      transform: rotate(41deg);
+    }
+
+    .letters span:nth-of-type(41)  {
+      transform: rotate(44deg);
+    }
+    .letters span:nth-of-type(42)  {
+      transform: rotate(47deg);
+    }
+
+    .letters span:nth-of-type(43)  {
+      transform: rotate(50deg);
+    }
+
+    .letters span:nth-of-type(44)  {
+      transform: rotate(53deg);
+    }
+
+    .letters span:nth-of-type(45)  {
+      transform: rotate(56deg);
+    }
+
+    .letters span:nth-of-type(46)  {
+      transform: rotate(59deg);
+    }
+
+    .letters span:nth-of-type(47)  {
+      transform: rotate(62deg);
+    }
+
+.symbol-outline {
       position: absolute;
       top: 0;
       z-index: 22;
@@ -191,7 +270,7 @@ body {
       clip-path: polygon(27% 28.5%, 39% 28%, 39% 18.5%, 46% 18.5%, 46% 28%, 49% 28%, 49% 18.5%, 56% 18.5%, 56% 81%, 49% 81%, 49% 72%, 46% 72%, 46% 81%, 40% 81%, 40% 72.5%, 28% 71.5%, 29% 64.5%, 35% 64.5%, 35% 35.5%, 27% 35.5%);
 }
 
-.B-outline:after {
+.symbol-outline:after {
       content: '';
       position: absolute;
       top: 0;
@@ -202,7 +281,7 @@ body {
       clip-path: polygon(28% 29.5%, 40% 29%, 40% 19.5%, 45% 19.5%, 45% 29%, 50% 29%, 50% 19.5%, 55% 19.5%, 55% 80%, 50% 80%, 50% 71%, 45% 71%, 45% 80%, 41% 80%, 41% 71.5%, 29.3% 70.5%, 30% 65.5%, 36% 65.5%, 36% 34.5%, 28% 34.5%);
 }
 
-.B-ellipse-1 {
+.symbol-ellipse-1 {
       position: absolute;
       top: 130px;
       left: 253px;
@@ -214,7 +293,7 @@ body {
       border-radius: 0px 157px 83px 0 / 0 140px 104px 0;
 }
 
-.B-ellipse-1:after {
+.symbol-ellipse-1:after {
       content: '';
       position: absolute;
       top: 4px;
@@ -226,7 +305,7 @@ body {
       border-radius: 0px 157px 96px 0 / 0 140px 104px 0;
 }
 
-.B-ellipse-2 {
+.symbol-ellipse-2 {
       position: absolute;
       top: 215px;
       left: 253px;
@@ -238,7 +317,7 @@ body {
       border-radius: 0 73px 134px 0 / 0 89px 126px 0;
 }
 
-.B-ellipse-2:after {
+.symbol-ellipse-2:after {
       content: '';
       position: absolute;
       top: -1px;
@@ -251,7 +330,7 @@ body {
       border-radius: 0 90px 134px 0 / 0 93px 126px 0;
 }
 
-.B-hole-1 {
+.symbol-hole-1 {
       position: absolute;
       top: 157px;
       left: 206px;
@@ -263,7 +342,7 @@ body {
       border-radius: 0px 173px 176px 0 / 0 132px 145px 0;
 }
 
-.B-hole-1:after {
+.symbol-hole-1:after {
       content: '';
       position: absolute;
       top: 4px;
@@ -275,7 +354,7 @@ body {
       border-radius: 0px 177px 209px 0 / 0 152px 155px 0;
 }
 
-.B-hole-2 {
+.symbol-hole-2 {
       position: absolute;
       top: 237px;
       left: 206px;
@@ -287,7 +366,7 @@ body {
       border-radius: 0px 121px 102px 0 / 0 73px 88px 0;
 }
 
-.B-hole-2:after {
+.symbol-hole-2:after {
       content: '';
       position: absolute;
       top: 4px;
