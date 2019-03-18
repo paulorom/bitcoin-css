@@ -1,42 +1,34 @@
+
+/*
+ * (c) 2019 Paulo Miranda
+ * MIT License | https://opensource.org/licenses/MIT
+ */
 body {
       background: black;
 }
 
 .coin {
       position: absolute;
-      top: 27px;
+      top: 25px;
       left: 25px;
       opacity: 0.5;
       width: 450px;
       height: 450px;
       border-radius: 80%;
       background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%);
-      box-shadow: 0px -2px 0px 0px black;
+      border: 12px solid #f3cd44;
 }
 
-/*
-.coin:before {
-      content: '';
+.ilumination {
       position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      z-index: -1;
-      margin: -8px; 
+      top: 25px;
+      left: 25px;
+      opacity: 0.5;
+      width: 474px;
+      z-index: 500;
+      height: 474px;
       border-radius: 80%;
-      background: linear-gradient(to right, blue, green);
-      box-shadow: 0px -1px 1px 1px white, 1px 1px 3px 1px black, inset 25px -14px 24px -16px red;
-}*/
-
-.coin:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      margin: -12px;
-      border-radius: 80%;
-      background: #f3cd44;
+      background-image: linear-gradient(-20deg, #542a04 15%, transparent 50%, #8a430f 86%);
 }
 
 .coin-gab {
@@ -44,219 +36,324 @@ body {
       background-position-x: center;
       background-size: cover;
       position: absolute;
-      top: -13px;
-      left: -15px;
+      top: -3px;
+      left: -3px;
       width: 530px;
       height: 530px;
       border-radius: 80%;
       z-index: -10;
 }
 
-.letters {
-      position: absolute;
-      font-size: 17px;
-      color: #fff;
-}
-
 .letters span {
       position: absolute;
-      top: 0;
-      left: 191px;
-      width: 56px;
-      height: 224px;
+      top: 5px;
+      left: 215px;
+      width: 22px;
+      height: 220px;
       line-height: 530px;
+      font-weight: bold;
       text-align: center;
       transform-origin: top center;
-      line-height: 44px;
+      line-height: 50px;
       transform-origin: bottom center;
-      border: 1px solid red;
+      border: 0 solid red;
+      z-index: 6000;
 }
 
 .letters span:nth-of-type(1)  {
-      transform: rotate(-75deg);
+      transform: rotate(-77deg);
 }
 
 .letters span:nth-of-type(2)  {
-      transform: rotate(-71deg);
+      transform: rotate(-74deg);
 }
 
 .letters span:nth-of-type(3)  {
-      transform: rotate(-67deg);
+      transform: rotate(-71deg);
 }
 
     .letters span:nth-of-type(4)  {
-      transform: rotate(-63deg);
+      transform: rotate(-67deg);
     }
 
     .letters span:nth-of-type(5)  {
-      transform: rotate(-59deg);
+      transform: rotate(-62deg);
     }
 
     .letters span:nth-of-type(6)  {
-      transform: rotate(-55deg);
+      transform: rotate(-59deg);
     }
 
     .letters span:nth-of-type(7)  {
-      transform: rotate(-51deg);
+      transform: rotate(-56deg);
     }
 
     .letters span:nth-of-type(8)  {
-      transform: rotate(-54deg);
+      transform: rotate(-47deg);
     }
 
     .letters span:nth-of-type(9)  {
-      transform: rotate(-51deg);
-    }
-
-    .letters span:nth-of-type(10)  {
-      transform: rotate(-48deg);
-    }
-
-    .letters span:nth-of-type(11)  {
       transform: rotate(-45deg);
     }
 
-    .letters span:nth-of-type(12)  {
+    .letters span:nth-of-type(10)  {
       transform: rotate(-42deg);
     }
 
-    .letters span:nth-of-type(13)  {
+    .letters span:nth-of-type(11)  {
       transform: rotate(-39deg);
     }
 
-    .letters span:nth-of-type(14)  {
+    .letters span:nth-of-type(12)  {
       transform: rotate(-36deg);
     }
 
+    .letters span:nth-of-type(13)  {
+      transform: rotate(-31deg);
+    }
+
+    .letters span:nth-of-type(14)  {
+      transform: rotate(-26deg);
+    }
+
     .letters span:nth-of-type(15)  {
-      transform: rotate(-33deg);
+      transform: rotate(-20deg);
     }
 
     .letters span:nth-of-type(16)  {
-      transform: rotate(-30deg);
-    }
-
-    .letters span:nth-of-type(17)  {
-      transform: rotate(-27deg);
-    }
-
-    .letters span:nth-of-type(18)  {
-      transform: rotate(-24deg);
-    }
-
-    .letters span:nth-of-type(19)  {
-      transform: rotate(-21deg);
-    }
-
-    .letters span:nth-of-type(20)  {
-      transform: rotate(-19deg);
-    }
-
-    .letters span:nth-of-type(21)  {
       transform: rotate(-16deg);
     }
 
-    .letters span:nth-of-type(22)  {
-      transform: rotate(-13deg);
+    .letters span:nth-of-type(17)  {
+      transform: rotate(-12deg);
     }
 
-    .letters span:nth-of-type(23)  {
-      transform: rotate(-10deg);
+    .letters span:nth-of-type(18)  {
+      transform: rotate(-8deg);
     }
 
-    .letters span:nth-of-type(24)  {
-      transform: rotate(-7deg);
-    }
-
-    .letters span:nth-of-type(25)  {
+    .letters span:nth-of-type(19)  {
       transform: rotate(-4deg);
     }
 
-    .letters span:nth-of-type(26)  {
-      transform: rotate(-1deg);
+    .letters span:nth-of-type(20)  {
+      transform: rotate(0deg);
     }
 
-    .letters span:nth-of-type(27)  {
-      transform: rotate(2deg);
+    .letters span:nth-of-type(21)  {
+      transform: rotate(4deg);
     }
 
-    .letters span:nth-of-type(28)  {
-      transform: rotate(5deg);
-    }
-
-    .letters span:nth-of-type(29)  {
+    .letters span:nth-of-type(22)  {
       transform: rotate(8deg);
     }
 
-    .letters span:nth-of-type(30)  {
-      transform: rotate(11deg);
+    .letters span:nth-of-type(23)  {
+      transform: rotate(12deg);
     }
 
-    .letters span:nth-of-type(31)  {
-      transform: rotate(14deg);
+    .letters span:nth-of-type(24)  {
+      transform: rotate(16deg);
     }
 
-    .letters span:nth-of-type(32)  {
-      transform: rotate(17deg);
-    }
-
-    .letters span:nth-of-type(33)  {
+    .letters span:nth-of-type(25)  {
       transform: rotate(20deg);
     }
 
-    .letters span:nth-of-type(34)  {
-      transform: rotate(23deg);
+    .letters span:nth-of-type(26)  {
+      transform: rotate(24deg);
     }
 
-    .letters span:nth-of-type(35)  {
-      transform: rotate(26deg);
+    .letters span:nth-of-type(27)  {
+      transform: rotate(28deg);
     }
 
-    .letters span:nth-of-type(36)  {
-      transform: rotate(29deg);
+    .letters span:nth-of-type(28)  {
+      transform: rotate(36deg);
     }
 
-    .letters span:nth-of-type(37)  {
-      transform: rotate(32deg);
+    .letters span:nth-of-type(29)  {
+      transform: rotate(40deg);
     }
 
-    .letters span:nth-of-type(38)  {
-      transform: rotate(35deg);
-    }
-
-    .letters span:nth-of-type(39)  {
-      transform: rotate(38deg);
-    }
-
-    .letters span:nth-of-type(40)  {
-      transform: rotate(41deg);
-    }
-
-    .letters span:nth-of-type(41)  {
+    .letters span:nth-of-type(30)  {
       transform: rotate(44deg);
     }
-    .letters span:nth-of-type(42)  {
-      transform: rotate(47deg);
+
+    .letters span:nth-of-type(31)  {
+      transform: rotate(48deg);
     }
 
-    .letters span:nth-of-type(43)  {
-      transform: rotate(50deg);
-    }
-
-    .letters span:nth-of-type(44)  {
-      transform: rotate(53deg);
-    }
-
-    .letters span:nth-of-type(45)  {
+    .letters span:nth-of-type(32)  {
       transform: rotate(56deg);
     }
 
+    .letters span:nth-of-type(33)  {
+      transform: rotate(60deg);
+    }
+
+    .letters span:nth-of-type(34)  {
+      transform: rotate(68deg);
+    }
+
+    .letters span:nth-of-type(35)  {
+      transform: rotate(72deg);
+    }
+
+    .letters span:nth-of-type(36)  {
+      transform: rotate(76deg);
+    }
+
+    .letters span:nth-of-type(37)  {
+      transform: rotate(80deg);
+    }
+
+
+
+    .letters span:nth-of-type(38)  {
+      transform: rotate(110deg);
+    }
+
+    .letters span:nth-of-type(39)  {
+      transform: rotate(114deg);
+    }
+
+    .letters span:nth-of-type(40)  {
+      transform: rotate(118deg);
+    }
+
+    .letters span:nth-of-type(41)  {
+      transform: rotate(122deg);
+    }
+    .letters span:nth-of-type(42)  {
+      transform: rotate(126deg);
+    }
+
+    .letters span:nth-of-type(43)  {
+      transform: rotate(130deg);
+    }
+
+    .letters span:nth-of-type(44)  {
+      transform: rotate(134deg);
+    }
+
+    .letters span:nth-of-type(45)  {
+      transform: rotate(142deg);
+    }
+
     .letters span:nth-of-type(46)  {
-      transform: rotate(59deg);
+      transform: rotate(146deg);
     }
 
     .letters span:nth-of-type(47)  {
-      transform: rotate(62deg);
+      transform: rotate(150deg);
+    }
+
+    .letters span:nth-of-type(48)  {
+      transform: rotate(156deg);
+    }
+
+    .letters span:nth-of-type(49)  {
+      transform: rotate(158deg);
+    }
+
+    .letters span:nth-of-type(50)  {
+      transform: rotate(161deg);
+    }
+
+    .letters span:nth-of-type(51)  {
+      transform: rotate(164deg);
+    }
+
+    .letters span:nth-of-type(52)  {
+      transform: rotate(170deg);
+    }
+
+    .letters span:nth-of-type(53)  {
+      transform: rotate(174deg);
+    }
+
+    .letters span:nth-of-type(54)  {
+      transform: rotate(178deg);
+    }
+
+    .letters span:nth-of-type(55)  {
+      transform: rotate(182deg);
+    }
+
+    .letters span:nth-of-type(56)  {
+      transform: rotate(186deg);
+    }
+
+    .letters span:nth-of-type(57)  {
+      transform: rotate(190deg);
+    }
+
+    .letters span:nth-of-type(58)  {
+      transform: rotate(202deg);
+    }
+
+    .letters span:nth-of-type(59)  {
+      transform: rotate(206deg);
+    }
+
+    .letters span:nth-of-type(60)  {
+      transform: rotate(210deg);
+    }
+
+    .letters span:nth-of-type(61)  {
+      transform: rotate(218deg);
+    }
+
+    .letters span:nth-of-type(62)  {
+      transform: rotate(222deg);
+    }
+
+    .letters span:nth-of-type(63)  {
+      transform: rotate(226deg);
+    }
+
+    .letters span:nth-of-type(64)  {
+      transform: rotate(230deg);
+    }
+
+    .letters span:nth-of-type(65)  {
+      transform: rotate(234deg);
+    }
+
+    .letters span:nth-of-type(66)  {
+      transform: rotate(238deg);
+    }
+
+    .letters span:nth-of-type(67)  {
+      transform: rotate(242deg);
+    }
+    .letters span:nth-of-type(68)  {
+      transform: rotate(246deg);
+    }
+
+    .letters span:nth-of-type(69)  {
+      transform: rotate(254deg);
+    }
+
+    .letters span:nth-of-type(70)  {
+      transform: rotate(258deg);
+    }
+
+    .letters span:nth-of-type(71)  {
+      transform: rotate(262deg);
+    }
+
+    .letters span:nth-of-type(72)  {
+      transform: rotate(266deg);
+    }
+
+    .letters span:nth-of-type(73)  {
+      transform: rotate(270deg);
+    }
+
+    .letters span:nth-of-type(74)  {
+      transform: rotate(274deg);
     }
 
 .symbol-outline {
@@ -812,212 +909,344 @@ body {
 }
 
 .rectangles {
-      position: relative;
-      top: 7.5%;
-      width: 85%;
-      height: 85%;
-      margin: 0 auto;
-      font-size: 70px;
-      border-radius: 250px;
-      transform: rotate(123deg);
-      z-index: 10;
+      z-index: 29;
+      height: 100%;
+      width: 100%;
 }
 
 .rectangles span {
-      width: 26px;
       background: #f3cd44;
-      height: 10px;
-      line-height: 530px;
-      display: none;
       border-radius: 2px;
-      top: 46px;
-      left: 50px;
-      position: relative;
+      position: absolute;
 }
 
 .rectangles span:nth-of-type(1) {
-      display: block;
-      transform: rotate(-46deg) translate(-2px) translateY(-2px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-61deg);
+      top: 304px;
+      left: 384px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(2) {
-      display: block;
-      transform: rotate(-54deg) translateX(-27px) translateY(-11px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-54deg);
+      top: 333px;
+      left: 367px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(3) {
-      display: block;
-      transform: rotate(-62deg) translateX(-51px) translateY(-21px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-44deg);
+      top: 358px;
+      left: 345px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(4) {
-      display: block;
-      transform: rotate(-71deg) translateX(-72px) translateY(-33px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-35deg);
+      top: 379px;
+      left: 319px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(5) {
-      display: block;
-      transform: rotate(-81deg) translateX(-89px) translateY(-48px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-25deg);
+      top: 395px;
+      left: 290px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(6) {
-      display: block;
-      transform: rotate(-96deg) translateX(-97px) translateY(-73px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-14deg);
+      top: 406px;
+      left: 258px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(7) {
-      display: block;
-      transform: rotate(-102deg) translateX(-113px) translateY(-83px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(-4deg);
+      top: 411px;
+      left: 225px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(8) {
-      display: block;
-      transform: rotate(-114deg) translateX(-118px) translateY(-104px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(6deg);
+      top: 410px;
+      left: 192px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(9) {
-      display: block;
-      transform: rotate(-124deg) translateX(-124px) translateY(-120px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(16deg);
+      top: 403px;
+      left: 159px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(10) {
-      display: block;
-      transform: rotate(-135deg) translateX(-126px) translateY(-137px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(26deg);
+      top: 391px;
+      left: 128px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(11) {
-      display: block;
-      transform: rotate(-145deg) translateX(-129px) translateY(-152px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(36deg);
+      top: 374px;
+      left: 99px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(12) {
-      display: block;
-      transform: rotate(-154deg) translateX(-134px) translateY(-163px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(45deg);
+      top: 352px;
+      left: 74px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(13) {
-      display: block;
-      transform: rotate(-167deg) translateX(-127px) translateY(-183px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(56deg);
+      top: 326px;
+      left: 54px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(14) {
-      display: block;
-      transform: rotate(-179deg) translateX(-121px) translateY(-200px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(66deg);
+      top: 296px;
+      left: 37px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(15) {
-      display: block;
-      transform: rotate(-190deg) translateX(-116px) translateY(-214px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(76deg);
+      top: 265px;
+      left: 26px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(16) {
-      display: block;
-      transform: rotate(-201deg) translateX(-110px) translateY(-229px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(85deg);
+      top: 232px;
+      left: 21px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(17) {
-      display: block;
-      transform: rotate(-211deg) translateX(-107px) translateY(-241px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(98deg);
+      top: 199px;
+      left: 22px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(18) {
-      display: block;
-      transform: rotate(-220deg) translateX(-107px) translateY(-251px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(104deg);
+      top: 166px;
+      left: 29px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(19) {
-      display: block;
-      transform: rotate(-230deg) translateX(-103px) translateY(-264px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(117deg);
+      top: 135px;
+      left: 40px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(20) {
-      display: block;
-      transform: rotate(-241deg) translateX(-94px) translateY(-279px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(126deg);
+      top: 106px;
+      left: 58px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(21) {
-      display: block;
-      transform: rotate(-246deg) translateX(-111px) translateY(-285px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(137deg);
+      top: 81px;
+      left: 80px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(22) {
-      display: block;
-      transform: rotate(-256deg) translateX(-102px) translateY(-300px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(148deg);
+      top: 60px;
+      left: 106px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(23) {
-      display: block;
-      transform: rotate(-272deg) translateX(-58px) translateY(-323px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(157deg);
+      top: 44px;
+      left: 135px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(24) {
-      display: block;
-      transform: rotate(-281deg) translateX(-49px) translateY(-334px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(167deg);
+      top: 33px;
+      left: 167px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(25) {
-      display: block;
-      transform: rotate(-291deg) translateX(-32px) translateY(-346px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(175deg);
+      top: 28px;
+      left: 200px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(26) {
-      display: block;
-      transform: rotate(-298deg) translateX(-31px) translateY(-355px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(187deg);
+      top: 29px;
+      left: 233px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(27) {
-      display: block;
-      transform: rotate(-310deg) translateX(2px) translateY(-365px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(195deg);
+      top: 36px;
+      left: 267px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(28) {
-      display: block;
-      transform: rotate(-315deg) translateX(-7px) translateY(-373px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(206deg);
+      top: 48px;
+      left: 298px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(29) {
-      display: block;
-      transform: rotate(-322deg) translateX(0) translateY(-380px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(214deg);
+      top: 66px;
+      left: 327px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(30) {
-      display: block;
-      transform: rotate(-339deg) translateX(73px) translateY(-377px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(223deg);
+      top: 87px;
+      left: 351px;
+      z-index: 29;  
 }
 
 .rectangles span:nth-of-type(31) {
-      display: block;
-      transform: rotate(-343deg) translateX(63px) translateY(-381px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(233deg);
+      top: 113px;
+      left: 372px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(32) {
-      display: block;
-      transform: rotate(-359deg) translateX(132px) translateY(-364px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(246deg);
+      top: 143px;
+      left: 388px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(33) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 25px;
+      height: 11px;
+      transform: rotate(256deg);
+      top: 174px;
+      left: 399px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(34) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 18px;
+      height: 5px;
+      top: 218px;
+      left: 414px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(35) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 18px;
+      height: 5px;
+      top: 231px;
+      left: 414px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(36) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 18px;
+      height: 5px;
+      top: 243px;
+      left: 414px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(37) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 30px;
+      height: 30px;
+      top: 243px;
+      left: 370px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(38) {
@@ -1036,6 +1265,46 @@ body {
 }
 
 .rectangles span:nth-of-type(41) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(42) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(43) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(44) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(45) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(46) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(47) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(48) {
+      display: block;
+      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+}
+
+.rectangles span:nth-of-type(49) {
       display: block;
       transform: rotate(-9deg) translateX(162px) translateY(-350px);
 }
