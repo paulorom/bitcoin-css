@@ -632,7 +632,7 @@ body {
       height: 450px;
       z-index: 17;
       background-image: linear-gradient(-20deg, #ba6416 15%, #bc6615 50%, #8a430f 86%);
-      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 51%, 77% 46%, 73% 35%, 62% 25%, 55% 24%, 53% 27%, 47% 27%, 42% 25%, 36% 28%, 27% 43%, 20% 49%, 17% 54%, 18.5% 60%, 29% 66%, 33% 73%, 43% 78%, 42% 72%, 57% 78%, 59% 77%, 69% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
+      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 54%, 77% 46%, 73% 35%, 62% 25%, 55% 24%, 53% 27%, 47% 27%, 42% 25%, 36% 28%, 27% 43%, 20% 49%, 17% 54%, 18.5% 60%, 29% 66%, 33% 73%, 43% 78%, 42% 72%, 57% 78%, 59% 77%, 69% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
 }
 
 .horizontal-top {
@@ -1250,61 +1250,103 @@ body {
 }
 
 .rectangles span:nth-of-type(38) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 23px;
+      height: 6px;
+      top: 255px;
+      left: 340px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(39) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 14px;
+      height: 6px;
+      top: 223px;
+      left: 325px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(40) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 15px;
+      height: 5px;
+      top: 212px;
+      left: 325px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(41) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 15px;
+      height: 5px;
+      top: 203px;
+      left: 325px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(42) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 11px;
+      height: 9px;
+      top: 189px;
+      left: 326px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(43) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 9px;
+      height: 7px;
+      top: 177px;
+      left: 326px;
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(44) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 17px;
+      height: 5px;
+      top: 168px;
+      left: 335px;
+      transform: rotate(66deg);
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(45) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 17px;
+      height: 5px;
+      top: 147px;
+      left: 337px;
+      transform: rotate(61deg);
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(46) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 17px;
+      height: 5px;
+      top: 129px;
+      left: 338px;
+      transform: rotate(52deg);
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(47) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 15px;
+      height: 6px;
+      top: 110px;
+      left: 337px;
+      transform: rotate(47deg);
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(48) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 17px;
+      height: 5px;
+      top: 167px;
+      left: 336px;
+      transform: rotate(66deg);
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(49) {
-      display: block;
-      transform: rotate(-9deg) translateX(162px) translateY(-350px);
+      width: 17px;
+      height: 5px;
+      top: 167px;
+      left: 336px;
+      transform: rotate(66deg);
+      z-index: 29;
 }
