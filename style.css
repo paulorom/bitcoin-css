@@ -1,8 +1,8 @@
-
 /*
  * (c) 2019 Paulo Miranda
  * MIT License | https://opensource.org/licenses/MIT
  */
+
 body {
       background: black;
 }
@@ -60,301 +60,301 @@ body {
       z-index: 6000;
 }
 
-.letters span:nth-of-type(1)  {
+.letters span:nth-of-type(1) {
       transform: rotate(-77deg);
 }
 
-.letters span:nth-of-type(2)  {
+.letters span:nth-of-type(2) {
       transform: rotate(-74deg);
 }
 
-.letters span:nth-of-type(3)  {
+.letters span:nth-of-type(3) {
       transform: rotate(-71deg);
 }
 
-    .letters span:nth-of-type(4)  {
+.letters span:nth-of-type(4) {
       transform: rotate(-67deg);
-    }
+}
 
-    .letters span:nth-of-type(5)  {
+.letters span:nth-of-type(5) {
       transform: rotate(-62deg);
-    }
+}
 
-    .letters span:nth-of-type(6)  {
+.letters span:nth-of-type(6) {
       transform: rotate(-59deg);
-    }
+}
 
-    .letters span:nth-of-type(7)  {
+.letters span:nth-of-type(7) {
       transform: rotate(-56deg);
-    }
+}
 
-    .letters span:nth-of-type(8)  {
+.letters span:nth-of-type(8) {
       transform: rotate(-47deg);
-    }
+}
 
-    .letters span:nth-of-type(9)  {
+.letters span:nth-of-type(9) {
       transform: rotate(-45deg);
-    }
+}
 
-    .letters span:nth-of-type(10)  {
+.letters span:nth-of-type(10) {
       transform: rotate(-42deg);
-    }
+}
 
-    .letters span:nth-of-type(11)  {
+.letters span:nth-of-type(11) {
       transform: rotate(-39deg);
-    }
+}
 
-    .letters span:nth-of-type(12)  {
+.letters span:nth-of-type(12) {
       transform: rotate(-36deg);
-    }
+}
 
-    .letters span:nth-of-type(13)  {
+.letters span:nth-of-type(13) {
       transform: rotate(-31deg);
-    }
+}
 
-    .letters span:nth-of-type(14)  {
+.letters span:nth-of-type(14) {
       transform: rotate(-26deg);
-    }
+}
 
-    .letters span:nth-of-type(15)  {
+.letters span:nth-of-type(15) {
       transform: rotate(-20deg);
-    }
+}
 
-    .letters span:nth-of-type(16)  {
+.letters span:nth-of-type(16) {
       transform: rotate(-16deg);
-    }
+}
 
-    .letters span:nth-of-type(17)  {
+.letters span:nth-of-type(17) {
       transform: rotate(-12deg);
-    }
+}
 
-    .letters span:nth-of-type(18)  {
+.letters span:nth-of-type(18) {
       transform: rotate(-8deg);
-    }
+}
 
-    .letters span:nth-of-type(19)  {
+.letters span:nth-of-type(19) {
       transform: rotate(-4deg);
-    }
+}
 
-    .letters span:nth-of-type(20)  {
+.letters span:nth-of-type(20) {
       transform: rotate(0deg);
-    }
+}
 
-    .letters span:nth-of-type(21)  {
+.letters span:nth-of-type(21) {
       transform: rotate(4deg);
-    }
+}
 
-    .letters span:nth-of-type(22)  {
+.letters span:nth-of-type(22) {
       transform: rotate(8deg);
-    }
+}
 
-    .letters span:nth-of-type(23)  {
+.letters span:nth-of-type(23) {
       transform: rotate(12deg);
-    }
+}
 
-    .letters span:nth-of-type(24)  {
+.letters span:nth-of-type(24) {
       transform: rotate(16deg);
-    }
+}
 
-    .letters span:nth-of-type(25)  {
+.letters span:nth-of-type(25) {
       transform: rotate(20deg);
-    }
+}
 
-    .letters span:nth-of-type(26)  {
+.letters span:nth-of-type(26) {
       transform: rotate(24deg);
-    }
+}
 
-    .letters span:nth-of-type(27)  {
+.letters span:nth-of-type(27) {
       transform: rotate(28deg);
-    }
+}
 
-    .letters span:nth-of-type(28)  {
+.letters span:nth-of-type(28) {
       transform: rotate(36deg);
-    }
+}
 
-    .letters span:nth-of-type(29)  {
+.letters span:nth-of-type(29) {
       transform: rotate(40deg);
-    }
+}
 
-    .letters span:nth-of-type(30)  {
+.letters span:nth-of-type(30) {
       transform: rotate(44deg);
-    }
+}
 
-    .letters span:nth-of-type(31)  {
+.letters span:nth-of-type(31) {
       transform: rotate(48deg);
-    }
+}
 
-    .letters span:nth-of-type(32)  {
+.letters span:nth-of-type(32) {
       transform: rotate(56deg);
-    }
+}
 
-    .letters span:nth-of-type(33)  {
+.letters span:nth-of-type(33) {
       transform: rotate(60deg);
-    }
+}
 
-    .letters span:nth-of-type(34)  {
+.letters span:nth-of-type(34) {
       transform: rotate(68deg);
-    }
+}
 
-    .letters span:nth-of-type(35)  {
+.letters span:nth-of-type(35) {
       transform: rotate(72deg);
-    }
+}
 
-    .letters span:nth-of-type(36)  {
+.letters span:nth-of-type(36) {
       transform: rotate(76deg);
-    }
+}
 
-    .letters span:nth-of-type(37)  {
+.letters span:nth-of-type(37) {
       transform: rotate(80deg);
-    }
+}
 
-
-
-    .letters span:nth-of-type(38)  {
+.letters span:nth-of-type(38) {
       transform: rotate(110deg);
-    }
+}
 
-    .letters span:nth-of-type(39)  {
+.letters span:nth-of-type(39) {
       transform: rotate(114deg);
-    }
+}
 
-    .letters span:nth-of-type(40)  {
+.letters span:nth-of-type(40) {
       transform: rotate(118deg);
-    }
+}
 
-    .letters span:nth-of-type(41)  {
+.letters span:nth-of-type(41) {
       transform: rotate(122deg);
-    }
-    .letters span:nth-of-type(42)  {
+}
+
+.letters span:nth-of-type(42) {
       transform: rotate(126deg);
-    }
+}
 
-    .letters span:nth-of-type(43)  {
+.letters span:nth-of-type(43) {
       transform: rotate(130deg);
-    }
+}
 
-    .letters span:nth-of-type(44)  {
+.letters span:nth-of-type(44) {
       transform: rotate(134deg);
-    }
+}
 
-    .letters span:nth-of-type(45)  {
+.letters span:nth-of-type(45) {
       transform: rotate(142deg);
-    }
+}
 
-    .letters span:nth-of-type(46)  {
+.letters span:nth-of-type(46) {
       transform: rotate(146deg);
-    }
+}
 
-    .letters span:nth-of-type(47)  {
+.letters span:nth-of-type(47) {
       transform: rotate(150deg);
-    }
+}
 
-    .letters span:nth-of-type(48)  {
+.letters span:nth-of-type(48) {
       transform: rotate(156deg);
-    }
+}
 
-    .letters span:nth-of-type(49)  {
+.letters span:nth-of-type(49) {
       transform: rotate(158deg);
-    }
+}
 
-    .letters span:nth-of-type(50)  {
+.letters span:nth-of-type(50) {
       transform: rotate(161deg);
-    }
+}
 
-    .letters span:nth-of-type(51)  {
+.letters span:nth-of-type(51) {
       transform: rotate(164deg);
-    }
+}
 
-    .letters span:nth-of-type(52)  {
+.letters span:nth-of-type(52) {
       transform: rotate(170deg);
-    }
+}
 
-    .letters span:nth-of-type(53)  {
+.letters span:nth-of-type(53) {
       transform: rotate(174deg);
-    }
+}
 
-    .letters span:nth-of-type(54)  {
+.letters span:nth-of-type(54) {
       transform: rotate(178deg);
-    }
+}
 
-    .letters span:nth-of-type(55)  {
+.letters span:nth-of-type(55) {
       transform: rotate(182deg);
-    }
+}
 
-    .letters span:nth-of-type(56)  {
+.letters span:nth-of-type(56) {
       transform: rotate(186deg);
-    }
+}
 
-    .letters span:nth-of-type(57)  {
+.letters span:nth-of-type(57) {
       transform: rotate(190deg);
-    }
+}
 
-    .letters span:nth-of-type(58)  {
+.letters span:nth-of-type(58) {
       transform: rotate(202deg);
-    }
+}
 
-    .letters span:nth-of-type(59)  {
+.letters span:nth-of-type(59) {
       transform: rotate(206deg);
-    }
+}
 
-    .letters span:nth-of-type(60)  {
+.letters span:nth-of-type(60) {
       transform: rotate(210deg);
-    }
+}
 
-    .letters span:nth-of-type(61)  {
+.letters span:nth-of-type(61) {
       transform: rotate(218deg);
-    }
+}
 
-    .letters span:nth-of-type(62)  {
+.letters span:nth-of-type(62) {
       transform: rotate(222deg);
-    }
+}
 
-    .letters span:nth-of-type(63)  {
+.letters span:nth-of-type(63) {
       transform: rotate(226deg);
-    }
+}
 
-    .letters span:nth-of-type(64)  {
+.letters span:nth-of-type(64) {
       transform: rotate(230deg);
-    }
+}
 
-    .letters span:nth-of-type(65)  {
+.letters span:nth-of-type(65) {
       transform: rotate(234deg);
-    }
+}
 
-    .letters span:nth-of-type(66)  {
+.letters span:nth-of-type(66) {
       transform: rotate(238deg);
-    }
+}
 
-    .letters span:nth-of-type(67)  {
+.letters span:nth-of-type(67) {
       transform: rotate(242deg);
-    }
-    .letters span:nth-of-type(68)  {
+}
+
+.letters span:nth-of-type(68) {
       transform: rotate(246deg);
-    }
+}
 
-    .letters span:nth-of-type(69)  {
+.letters span:nth-of-type(69) {
       transform: rotate(254deg);
-    }
+}
 
-    .letters span:nth-of-type(70)  {
+.letters span:nth-of-type(70) {
       transform: rotate(258deg);
-    }
+}
 
-    .letters span:nth-of-type(71)  {
+.letters span:nth-of-type(71) {
       transform: rotate(262deg);
-    }
+}
 
-    .letters span:nth-of-type(72)  {
+.letters span:nth-of-type(72) {
       transform: rotate(266deg);
-    }
+}
 
-    .letters span:nth-of-type(73)  {
+.letters span:nth-of-type(73) {
       transform: rotate(270deg);
-    }
+}
 
-    .letters span:nth-of-type(74)  {
+.letters span:nth-of-type(74) {
       transform: rotate(274deg);
-    }
+}
 
 .symbol-outline {
       position: absolute;
@@ -1187,7 +1187,7 @@ body {
       transform: rotate(223deg);
       top: 87px;
       left: 351px;
-      z-index: 29;  
+      z-index: 29;
 }
 
 .rectangles span:nth-of-type(31) {
@@ -1296,6 +1296,7 @@ body {
       left: 326px;
       z-index: 29;
 }
+
 .rectangles span:nth-of-type(44) {
       width: 14px;
       height: 6px;
@@ -1355,7 +1356,6 @@ body {
       left: 211px;
       z-index: 29;
 }
-
 
 .rectangles span:nth-of-type(51) {
       width: 14px;
@@ -1423,7 +1423,7 @@ body {
       top: 236px;
       left: 127px;
       z-index: 29;
-  }
+}
 
 .rectangles span:nth-of-type(59) {
       width: 22px;
@@ -1431,7 +1431,7 @@ body {
       top: 249px;
       left: 127px;
       z-index: 29;
-  }
+}
 
 .rectangles span:nth-of-type(60) {
       width: 22px;
@@ -1439,32 +1439,32 @@ body {
       top: 261px;
       left: 127px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(61) {
+.rectangles span:nth-of-type(61) {
       width: 22px;
       height: 8px;
       top: 273px;
       left: 127px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(62) {
+.rectangles span:nth-of-type(62) {
       width: 9px;
       height: 8px;
       top: 289px;
       left: 147px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(63) {
+.rectangles span:nth-of-type(63) {
       width: 14px;
       height: 6px;
       top: 288px;
       left: 106px;
       transform: rotate(58deg);
       z-index: 29;
-  }
+}
 
 .rectangles span:nth-of-type(64) {
       width: 14px;
@@ -1473,16 +1473,16 @@ body {
       left: 104px;
       transform: rotate(48deg);
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(65) {
+.rectangles span:nth-of-type(65) {
       width: 15px;
       height: 8px;
       top: 324px;
       left: 103px;
       transform: rotate(49deg);
       z-index: 29;
-  }
+}
 
 .rectangles span:nth-of-type(66) {
       width: 14px;
@@ -1491,23 +1491,23 @@ body {
       left: 106px;
       transform: rotate(40deg);
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(67) {
+.rectangles span:nth-of-type(67) {
       width: 8px;
       height: 8px;
       top: 336px;
       left: 172px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(68) {
+.rectangles span:nth-of-type(68) {
       width: 8px;
       height: 8px;
       top: 346px;
       left: 172px;
       z-index: 29;
-  }
+}
 
 .rectangles span:nth-of-type(69) {
       width: 11px;
@@ -1515,45 +1515,162 @@ body {
       top: 376px;
       left: 215px;
       z-index: 29;
-  }
+}
 
-  
-  .rectangles span:nth-of-type(70) {
+.rectangles span:nth-of-type(70) {
       width: 11px;
       height: 8px;
       top: 388px;
       left: 215px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(71) {
-      width: 11px;
-      height: 8px;
-      top: 388px;
-      left: 215px;
-      z-index: 29;
-  }
-
-  .rectangles span:nth-of-type(72) {
+.rectangles span:nth-of-type(71) {
       width: 10px;
       height: 8px;
       top: 335px;
       left: 259px;
       z-index: 29;
-  }
+}
 
-  .rectangles span:nth-of-type(73) {
-      width: 11px;
-      height: 8px;
-      top: 342px;
+.rectangles span:nth-of-type(72) {
+      width: 17px;
+      height: 6px;
+      top: 338px;
       left: 276px;
       z-index: 29;
-  }
+      transform: rotate(-29deg);
+}
 
-  .rectangles span:nth-of-type(74) {
+.rectangles span:nth-of-type(73) {
+      width: 17px;
+      height: 6px;
+      top: 341px;
+      left: 294px;
+      z-index: 29;
+      transform: rotate(-29deg);
+}
+
+.rectangles span:nth-of-type(74) {
+      width: 17px;
+      height: 6px;
+      top: 341px;
+      left: 312px;
+      z-index: 29;
+      transform: rotate(-36deg);
+}
+
+.rectangles span:nth-of-type(75) {
+      width: 17px;
+      height: 6px;
+      top: 341px;
+      left: 330px;
+      z-index: 29;
+      transform: rotate(-42deg);
+}
+
+.rectangles span:nth-of-type(76) {
       width: 11px;
       height: 8px;
-      top: 388px;
+      top: 323px;
+      left: 345px;
+      z-index: 29;
+      transform: rotate(-46deg);
+}
+
+.rectangles span:nth-of-type(77) {
+      width: 8px;
+      height: 7px;
+      top: 287px;
+      left: 216px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(78) {
+      width: 18px;
+      height: 4px;
+      top: 277px;
+      left: 229px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(79) {
+      width: 11px;
+      height: 12px;
+      top: 256px;
+      left: 219px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(80) {
+      width: 11px;
+      height: 12px;
+      top: 256px;
+      left: 233px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(81) {
+      width: 11px;
+      height: 12px;
+      top: 256px;
+      left: 246px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(82) {
+      width: 11px;
+      height: 14px;
+      top: 255px;
+      left: 260px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(83) {
+      width: 10px;
+      height: 6px;
+      top: 203px;
       left: 215px;
       z-index: 29;
-  }
+}
+
+.rectangles span:nth-of-type(84) {
+      width: 17px;
+      height: 4px;
+      top: 195px;
+      left: 229px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(85) {
+      width: 11px;
+      height: 13px;
+      top: 180px;
+      left: 246px;
+      z-index: 29;
+}
+
+
+.rectangles span:nth-of-type(86) {
+      width: 9px;
+      height: 11px;
+      top: 172px;
+      left: 232px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(87) {
+      width: 11px;
+      height: 13px;
+      top: 171px;
+      left: 219px;
+      z-index: 29;
+}
+
+.rectangles span:nth-of-type(88) {
+      width: 5px;
+      height: 8px;
+      top: 173px;
+      left: 212px;
+      z-index: 29;
+}
