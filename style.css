@@ -5,26 +5,37 @@
 
 body {
       background: black;
+      overflow: hidden;
+}
+
+.container {
+      margin: 10% auto 0;
+      width: 450px;
+      height: 450px;
 }
 
 .coin {
-      position: absolute;
-      top: 25px;
-      left: 25px;
-      opacity: 0.5;
-      width: 450px;
-      height: 450px;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      position: relative;
       border-radius: 80%;
-      /* background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%); */
+      background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%); 
       border: 12px solid #f3cd44;
       background: #ba6416;
+      transition-duration: 1s;
 }
 
-.ilumination {
-      position: absolute;
-      top: 25px;
-      left: 25px;
-      opacity: 0.5;
+.coin:hover {
+     transform: perspective(500px) rotateY(180deg);
+     transform-style: preserve-3d;
+}
+
+.ilumination {      
+      width: 100%;
+      height: 100%;
+      position: relative;
+      opacity: 0;
       width: 474px;
       z-index: 500;
       height: 474px;
@@ -33,16 +44,17 @@ body {
 }
 
 .coin-gab {
+      opacity: 0;
       background-image: url(bitcoin.png);
       background-position-x: center;
       background-size: cover;
-      position: absolute;
-      top: -3px;
-      left: -3px;
       width: 530px;
       height: 530px;
       border-radius: 80%;
       z-index: -10;
+      top: -976px;
+      left: -28px;
+      position: relative;
 }
 
 .letters span {
@@ -1299,6 +1311,186 @@ body {
       transform: skewX(25deg);
 }
 
+.horizontal-top-a42 {
+      top: 203px;
+      left: 435px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a43 {
+      top: 210px;
+      left: 436px;
+      width: 14px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a44 {
+      top: 217px;
+      left: 437px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a45 {
+      top: 223px;
+      left: 437px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a46 {
+      top: 229px;
+      left: 437px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a47 {
+      top: 236px;
+      left: 437px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a48 {
+      top: 242px;
+      left: 437px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a49 {
+      top: 248px;
+      left: 435px;
+      width: 13px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a50 {
+      top: 255px;
+      left: 436px;
+      width: 12px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a51 {
+      top: 261px;
+      left: 435px;
+      width: 12px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a52 {
+      top: 267px;
+      left: 433px;
+      width: 12px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a53 {
+      top: 273px;
+      left: 432px;
+      width: 12px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a54 {
+      top: 280px;
+      left: 431px;
+      width: 11px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a55 {
+      top: 286px;
+      left: 430px;
+      width: 10px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
+.horizontal-top-a56 {
+      top: 292px;
+      left: 428px;
+      width: 11px;
+      border: 0;
+      height: 3px;
+      border-top: 1px solid #f3cd44;
+      background: #ba6416;
+      transform: rotate(28deg);
+      z-index: 19;
+}
+
 .horizontal-top-1 {
       top: 193px;
       left: 131px;
@@ -1382,79 +1574,71 @@ body {
 .horizontal-top-11 {
       top: 187px;
       left: 391px;
-      width: 47px;
+      width: 39px;
       height: 13px;
       transform: skewX(-135deg);
 }
 
 .horizontal-top-12 {
-      top: 187px;
-      left: 391px;
-      width: 47px;
-      height: 13px;
+      top: 193px;
+      left: 386px;
+      width: 43px;
+      height: 14px;
       transform: skewX(-135deg);
 }
 
 .horizontal-top-13 {
-      top: 193px;
-      left: 386px;
-      width: 55px;
+      top: 199px;
+      left: 380px;
+      width: 49px;
       height: 14px;
       transform: skewX(-135deg);
 }
 
 .horizontal-top-14 {
-      top: 199px;
-      left: 380px;
-      width: 67px;
-      height: 14px;
-      transform: skewX(-135deg);
-}
-
-.horizontal-top-15 {
       top: 209px;
       left: 374px;
-      width: 81px;
+      width: 57px;
       height: 10px;
       transform: skewX(-135deg);
 }
 
-.horizontal-top-16 {
+.horizontal-top-15 {
       top: 218px;
       left: 370px;
-      width: 84px;
+      width: 62px;
       height: 8px;
       transform: skewX(-135deg);
 }
 
-.horizontal-top-17 {
+.horizontal-top-16 {
       top: 225px;
       left: 364px;
-      width: 89px;
+      width: 69px;
       height: 7px;
       transform: skewX(-135deg);
 }
 
-.horizontal-top-18 {
+.horizontal-top-17 {
       top: 230px;
       left: 357px;
-      width: 91px;
+      width: 75px;
+      height: 8px;
+      transform: skewX(-135deg);
+}
+
+.horizontal-top-18 {
+      top: 237px;
+      left: 352px;
+      width: 80px;
       height: 8px;
       transform: skewX(-135deg);
 }
 
 .horizontal-top-19 {
-      top: 237px;
-      left: 352px;
-      width: 83px;
-      height: 8px;
-      transform: skewX(-135deg);
-}
-
-.horizontal-top-20 {
       top: 225px;
       left: 337px;
-      width: 102px;
+      width: 85px;
       height: 27px;
       transform: skewX(-135deg);
 }
@@ -1518,7 +1702,7 @@ body {
 .horizontal-bottom-7 {
       top: 289px;
       left: 360px;
-      width: 68px;
+      width: 54px;
       height: 25px;
       transform: skewX(-45deg);
 }
@@ -1526,7 +1710,7 @@ body {
 .horizontal-bottom-8 {
       top: 283px;
       left: 357px;
-      width: 80px;
+      width: 60px;
       height: 25px;
       transform: skewX(-45deg);
 }
@@ -1534,7 +1718,7 @@ body {
 .horizontal-bottom-9 {
       top: 277px;
       left: 353px;
-      width: 85px;
+      width: 66px;
       height: 25px;
       transform: skewX(-45deg);
 }
@@ -1542,7 +1726,7 @@ body {
 .horizontal-bottom-10 {
       top: 271px;
       left: 353px;
-      width: 80px;
+      width: 70px;
       height: 18px;
       transform: skewX(-45deg);
 }
@@ -1550,7 +1734,7 @@ body {
 .horizontal-bottom-11 {
       top: 264px;
       left: 350px;
-      width: 91px;
+      width: 75px;
       height: 17px;
       transform: skewX(-45deg);
 }
@@ -1559,7 +1743,7 @@ body {
       top: 258px;
       left: 355px;
       border-left: 0;
-      width: 95px;
+      width: 76px;
       height: 11px;
       transform: skewX(-45deg);
 }
