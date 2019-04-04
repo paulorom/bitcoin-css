@@ -5,7 +5,7 @@
 
 body {
       background: black;
-      overflow: hidden;
+      /*overflow: hidden;*/
 }
 
 .container {
@@ -15,23 +15,25 @@ body {
 }
 
 .coin {
-      opacity: 1;
+      opacity: 0.5;
       width: 100%;
       height: 100%;
       position: relative;
       border-radius: 80%;
-      background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%); 
+      background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%);
       border: 12px solid #f3cd44;
       background: #ba6416;
-      transition-duration: 1s;
+      /* transition-duration: 1s;*/
 }
 
+
+/*
 .coin:hover {
      transform: perspective(500px) rotateY(180deg);
      transform-style: preserve-3d;
-}
+}*/
 
-.ilumination {      
+.ilumination {
       width: 100%;
       height: 100%;
       position: relative;
@@ -44,7 +46,6 @@ body {
 }
 
 .coin-gab {
-      opacity: 0;
       background-image: url(bitcoin.png);
       background-position-x: center;
       background-size: cover;
@@ -56,7 +57,7 @@ body {
       left: -28px;
       position: relative;
 }
-
+.letters {display: none}
 .letters span {
       position: absolute;
       top: 5px;
@@ -577,16 +578,16 @@ body {
 }
 
 .circular-11 {
-      top: 5.85em;
-      left: 5.85em;
+      top: 5.88em;
+      left: 5.88em;
       width: 262px;
       height: 262px;
       z-index: 11;
 }
 
 .circular-12 {
-      top: 6.2em;
-      left: 6.2em;
+      top: 6.24em;
+      left: 6.24em;
       width: 251px;
       height: 251px;
       z-index: 12;
@@ -634,7 +635,7 @@ body {
       left: 0;
       z-index: -1;
       margin: 1.5px 1.5px;
-    /*  background-image: linear-gradient(-20deg, #8a430f 15%, #c46b17 50%, #8a430f 86%);*/
+      /*  background-image: linear-gradient(-20deg, #8a430f 15%, #c46b17 50%, #8a430f 86%);*/
       background: #ba6416;
 }
 
@@ -645,7 +646,7 @@ body {
       width: 450px;
       height: 450px;
       z-index: 17;
-    /*  background-image: linear-gradient(-20deg, #ba6416 15%, #bc6615 50%, #8a430f 86%);*/
+      /*  background-image: linear-gradient(-20deg, #ba6416 15%, #bc6615 50%, #8a430f 86%);*/
       background: #ba6416;
       clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 54%, 77% 46%, 73% 35%, 68% 30%, 63% 26%, 56% 23%, 53% 28%, 47% 28%, 41% 25%, 36% 28%, 27% 43%, 20% 49%, 17% 54%, 18.5% 60%, 31% 67%, 29% 73%, 42% 80%, 47% 75%, 50% 75%, 56% 78%, 59% 77%, 69% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
 }
@@ -996,7 +997,7 @@ body {
 .horizontal-top-a11 {
       top: 70px;
       left: 236px;
-      width: 4px;
+      width: 5px;
       height: 30px;
       transform: skewY(46deg);
       border-right: 2px solid #f3cd44;
@@ -1005,11 +1006,12 @@ body {
 
 .horizontal-top-a12 {
       top: 62px;
-      left: 230px;
-      width: 4px;
+      left: 229px;
+      width: 5px;
       height: 30px;
-      transform: skewY(46deg);
+      transform: skewY(33deg);
       background: #ba6416;
+      border-radius: 2px 0 0 0;
 }
 
 .horizontal-top-a13 {
@@ -1036,7 +1038,7 @@ body {
 .horizontal-top-a15 {
       top: 58px;
       left: 197px;
-      width: 33px;
+      width: 32px;
       height: 28px;
       transform: skewY(-5deg);
       border-right: 0;
@@ -1279,15 +1281,14 @@ body {
       background: #ba6416;
 }
 
-
 .horizontal-top-a39 {
       top: 337px;
-    left: 269px;
-    width: 13px;
-    border: 0;
-    height: 1px;
-    border-bottom: 1px solid #f3cd44;
-    background: #ba6416;
+      left: 269px;
+      width: 13px;
+      border: 0;
+      height: 1px;
+      border-bottom: 1px solid #f3cd44;
+      background: #ba6416;
 }
 
 .horizontal-top-a40 {
@@ -1497,6 +1498,8 @@ body {
       width: 21px;
       height: 15px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-2 {
@@ -1505,6 +1508,8 @@ body {
       width: 37px;
       height: 15px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-3 {
@@ -1513,6 +1518,8 @@ body {
       width: 38px;
       height: 15px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-4 {
@@ -1521,6 +1528,8 @@ body {
       width: 44px;
       height: 15px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-5 {
@@ -1529,30 +1538,38 @@ body {
       width: 49px;
       height: 15px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-6 {
-      top: 223px;
-      left: 96px;
+      top: 222px;
+      left: 95px;
       width: 56px;
-      height: 15px;
+      height: 16px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-7 {
-      top: 231px;
-      left: 90px;
-      width: 63px;
-      height: 13px;
+      top: 230px;
+      left: 89px;
+      width: 65px;
+      height: 14px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-8 {
       top: 238px;
-      left: 84px;
+      left: 83.4px;
       width: 71px;
       height: 12px;
       transform: skewX(-135deg);
+      border-left: 2.5px solid #f3cd44;
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-9 {
@@ -2147,16 +2164,16 @@ body {
 }
 
 .rectangles span:nth-of-type(45) {
-      width: 14px;
+      width: 15px;
       height: 6px;
-      top: 146px;
+      top: 147px;
       left: 337px;
       transform: rotate(58deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(46) {
-      width: 14px;
+      width: 15px;
       height: 6px;
       top: 128px;
       left: 338px;
@@ -2165,7 +2182,7 @@ body {
 }
 
 .rectangles span:nth-of-type(47) {
-      width: 14px;
+      width: 15px;
       height: 6px;
       top: 109px;
       left: 337px;
@@ -2182,54 +2199,54 @@ body {
 }
 
 .rectangles span:nth-of-type(49) {
-      width: 11px;
+      width: 12px;
       height: 8px;
       top: 75px;
-      left: 211px;
+      left: 210px;
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(50) {
-      width: 11px;
+      width: 12px;
       height: 8px;
       top: 63px;
-      left: 211px;
+      left: 210px;
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(51) {
-      width: 14px;
+      width: 16px;
       height: 6px;
       top: 108px;
       left: 153px;
-      transform: rotate(-27deg);
+      transform: rotate(-29deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(52) {
-      width: 14px;
+      width: 16px;
       height: 6px;
       top: 108px;
-      left: 134px;
+      left: 133px;
       transform: rotate(-37deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(53) {
-      width: 14px;
+      width: 16px;
       height: 6px;
       top: 108px;
-      left: 116px;
-      transform: rotate(-39deg);
+      left: 115px;
+      transform: rotate(-41deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(54) {
-      width: 14px;
+      width: 16px;
       height: 6px;
       top: 110px;
       left: 97px;
-      transform: rotate(-39deg);
+      transform: rotate(-45deg);
       z-index: 29;
 }
 
@@ -2301,23 +2318,23 @@ body {
       width: 14px;
       height: 6px;
       top: 288px;
-      left: 106px;
+      left: 105px;
       transform: rotate(58deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(64) {
       width: 14px;
-      height: 8px;
+      height: 6px;
       top: 306px;
       left: 104px;
-      transform: rotate(48deg);
+      transform: rotate(51deg);
       z-index: 29;
 }
 
 .rectangles span:nth-of-type(65) {
       width: 15px;
-      height: 8px;
+      height: 6px;
       top: 324px;
       left: 103px;
       transform: rotate(49deg);
@@ -2326,8 +2343,8 @@ body {
 
 .rectangles span:nth-of-type(66) {
       width: 14px;
-      height: 7px;
-      top: 341px;
+      height: 6px;
+      top: 342px;
       left: 106px;
       transform: rotate(40deg);
       z-index: 29;
@@ -2343,8 +2360,8 @@ body {
 
 .rectangles span:nth-of-type(68) {
       width: 9px;
-      height: 8px;
-      top: 346px;
+      height: 7px;
+      top: 347px;
       left: 171px;
       z-index: 29;
 }
@@ -2360,7 +2377,7 @@ body {
 .rectangles span:nth-of-type(70) {
       width: 11px;
       height: 8px;
-      top: 388px;
+      top: 387px;
       left: 215px;
       z-index: 29;
 }
