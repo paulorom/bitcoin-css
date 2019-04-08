@@ -57,7 +57,7 @@ body {
       left: -28px;
       position: relative;
 }
-.letters {display: none}
+
 .letters span {
       position: absolute;
       top: 5px;
@@ -75,31 +75,31 @@ body {
 }
 
 .letters span:nth-of-type(1) {
-      transform: rotate(-77deg);
+      transform: rotate(-76deg);
 }
 
 .letters span:nth-of-type(2) {
-      transform: rotate(-74deg);
+      transform: rotate(-72.5deg);
 }
 
 .letters span:nth-of-type(3) {
-      transform: rotate(-71deg);
+      transform: rotate(-69.5deg);
 }
 
 .letters span:nth-of-type(4) {
-      transform: rotate(-67deg);
+      transform: rotate(-65.5deg);
 }
 
 .letters span:nth-of-type(5) {
-      transform: rotate(-62deg);
+      transform: rotate(-61deg);
 }
 
 .letters span:nth-of-type(6) {
-      transform: rotate(-59deg);
+      transform: rotate(-57.5deg);
 }
 
 .letters span:nth-of-type(7) {
-      transform: rotate(-56deg);
+      transform: rotate(-55deg);
 }
 
 .letters span:nth-of-type(8) {
@@ -107,67 +107,67 @@ body {
 }
 
 .letters span:nth-of-type(9) {
-      transform: rotate(-45deg);
+      transform: rotate(-43.3deg);
 }
 
 .letters span:nth-of-type(10) {
-      transform: rotate(-42deg);
+      transform: rotate(-40.5deg);
 }
 
 .letters span:nth-of-type(11) {
-      transform: rotate(-39deg);
+      transform: rotate(-37deg);
 }
 
 .letters span:nth-of-type(12) {
-      transform: rotate(-36deg);
+      transform: rotate(-34.3deg);
 }
 
 .letters span:nth-of-type(13) {
-      transform: rotate(-31deg);
+      transform: rotate(-30deg);
 }
 
 .letters span:nth-of-type(14) {
-      transform: rotate(-26deg);
+      transform: rotate(-25.5deg);
 }
 
 .letters span:nth-of-type(15) {
-      transform: rotate(-20deg);
+      transform: rotate(-19.8deg);
 }
 
 .letters span:nth-of-type(16) {
-      transform: rotate(-16deg);
+      transform: rotate(-15deg);
 }
 
 .letters span:nth-of-type(17) {
-      transform: rotate(-12deg);
+      transform: rotate(-11deg);
 }
 
 .letters span:nth-of-type(18) {
-      transform: rotate(-8deg);
+      transform: rotate(-6.6deg);
 }
 
 .letters span:nth-of-type(19) {
-      transform: rotate(-4deg);
+      transform: rotate(-3deg);
 }
 
 .letters span:nth-of-type(20) {
-      transform: rotate(0deg);
+      transform: rotate(2deg);
 }
 
 .letters span:nth-of-type(21) {
-      transform: rotate(4deg);
+      transform: rotate(6deg);
 }
 
 .letters span:nth-of-type(22) {
-      transform: rotate(8deg);
+      transform: rotate(10deg);
 }
 
 .letters span:nth-of-type(23) {
-      transform: rotate(12deg);
+      transform: rotate(14deg);
 }
 
 .letters span:nth-of-type(24) {
-      transform: rotate(16deg);
+      transform: rotate(17deg);
 }
 
 .letters span:nth-of-type(25) {
@@ -179,7 +179,7 @@ body {
 }
 
 .letters span:nth-of-type(27) {
-      transform: rotate(28deg);
+      transform: rotate(27.5deg);
 }
 
 .letters span:nth-of-type(28) {
@@ -199,63 +199,62 @@ body {
 }
 
 .letters span:nth-of-type(32) {
-      transform: rotate(56deg);
+      transform: rotate(53deg);
 }
 
 .letters span:nth-of-type(33) {
-      transform: rotate(60deg);
+      transform: rotate(57deg);
 }
 
 .letters span:nth-of-type(34) {
-      transform: rotate(68deg);
+      transform: rotate(64deg);
 }
 
 .letters span:nth-of-type(35) {
-      transform: rotate(72deg);
+      transform: rotate(68deg);
 }
 
 .letters span:nth-of-type(36) {
-      transform: rotate(76deg);
+      transform: rotate(72deg);
 }
 
 .letters span:nth-of-type(37) {
-      transform: rotate(80deg);
+      transform: rotate(76deg);
 }
 
 .letters span:nth-of-type(38) {
-      transform: rotate(110deg);
+      transform: rotate(111deg);
 }
 
 .letters span:nth-of-type(39) {
-      transform: rotate(114deg);
+      transform: rotate(114.5deg);
 }
 
 .letters span:nth-of-type(40) {
-      transform: rotate(118deg);
+      transform: rotate(118.7deg);
 }
 
 .letters span:nth-of-type(41) {
-      transform: rotate(122deg);
+      transform: rotate(122.5deg);
 }
 
 .letters span:nth-of-type(42) {
-      transform: rotate(126deg);
+      transform: rotate(127deg);
 }
 
 .letters span:nth-of-type(43) {
-      transform: rotate(130deg);
+      transform: rotate(131deg);
 }
 
 .letters span:nth-of-type(44) {
-      transform: rotate(134deg);
+      transform: rotate(136deg);
 }
-
 .letters span:nth-of-type(45) {
       transform: rotate(142deg);
 }
 
 .letters span:nth-of-type(46) {
-      transform: rotate(146deg);
+      transform: rotate(145.5deg);
 }
 
 .letters span:nth-of-type(47) {
@@ -263,7 +262,7 @@ body {
 }
 
 .letters span:nth-of-type(48) {
-      transform: rotate(156deg);
+      transform: rotate(155.5deg);
 }
 
 .letters span:nth-of-type(49) {
@@ -271,39 +270,39 @@ body {
 }
 
 .letters span:nth-of-type(50) {
-      transform: rotate(161deg);
+      transform: rotate(160.5deg);
 }
 
 .letters span:nth-of-type(51) {
-      transform: rotate(164deg);
+      transform: rotate(165.5deg);
 }
 
 .letters span:nth-of-type(52) {
-      transform: rotate(170deg);
+      transform: rotate(170.5deg);
 }
 
 .letters span:nth-of-type(53) {
-      transform: rotate(174deg);
+      transform: rotate(174.8deg);
 }
 
 .letters span:nth-of-type(54) {
-      transform: rotate(178deg);
+      transform: rotate(179deg);
 }
 
 .letters span:nth-of-type(55) {
-      transform: rotate(182deg);
+      transform: rotate(183deg);
 }
 
 .letters span:nth-of-type(56) {
-      transform: rotate(186deg);
+      transform: rotate(187deg);
 }
 
 .letters span:nth-of-type(57) {
-      transform: rotate(190deg);
+      transform: rotate(191.5deg);
 }
 
 .letters span:nth-of-type(58) {
-      transform: rotate(202deg);
+      transform: rotate(201deg);
 }
 
 .letters span:nth-of-type(59) {
@@ -315,15 +314,15 @@ body {
 }
 
 .letters span:nth-of-type(61) {
-      transform: rotate(218deg);
+      transform: rotate(216.5deg);
 }
 
 .letters span:nth-of-type(62) {
-      transform: rotate(222deg);
+      transform: rotate(221deg);
 }
 
 .letters span:nth-of-type(63) {
-      transform: rotate(226deg);
+      transform: rotate(225.5deg);
 }
 
 .letters span:nth-of-type(64) {
@@ -335,19 +334,19 @@ body {
 }
 
 .letters span:nth-of-type(66) {
-      transform: rotate(238deg);
+      transform: rotate(237.5deg);
 }
 
 .letters span:nth-of-type(67) {
-      transform: rotate(242deg);
+      transform: rotate(242.5deg);
 }
 
 .letters span:nth-of-type(68) {
-      transform: rotate(246deg);
+      transform: rotate(246.7deg);
 }
 
 .letters span:nth-of-type(69) {
-      transform: rotate(254deg);
+      transform: rotate(252.5deg);
 }
 
 .letters span:nth-of-type(70) {
@@ -355,19 +354,19 @@ body {
 }
 
 .letters span:nth-of-type(71) {
-      transform: rotate(262deg);
+      transform: rotate(261.5deg);
 }
 
 .letters span:nth-of-type(72) {
-      transform: rotate(266deg);
+      transform: rotate(265.3deg);
 }
 
 .letters span:nth-of-type(73) {
-      transform: rotate(270deg);
+      transform: rotate(269.5deg);
 }
 
 .letters span:nth-of-type(74) {
-      transform: rotate(274deg);
+      transform: rotate(273.3deg);
 }
 
 .symbol-outline {
@@ -648,7 +647,7 @@ body {
       z-index: 17;
       /*  background-image: linear-gradient(-20deg, #ba6416 15%, #bc6615 50%, #8a430f 86%);*/
       background: #ba6416;
-      clip-path: polygon(99% 43%, 89% 43%, 89% 41%, 87% 40%, 77% 54%, 77% 46%, 73% 35%, 68% 30%, 63% 26%, 56% 23%, 53% 28%, 47% 28%, 41% 25%, 36% 28%, 28% 43%, 27% 43%, 20% 49%, 17% 54%, 17.5% 59%, 31% 67%, 29% 73%, 42% 80%, 47% 75%, 50% 75%, 56% 78%, 59% 77%, 69% 71%, 76% 62%, 79% 72%, 82% 72%, 86% 66%, 97% 66%);
+      clip-path:polygon(99% 43%, 89% 43%, 88% 40%, 86% 40%, 82% 48%, 77% 53%, 77% 46%, 73% 35%, 68% 30%, 63% 26%, 56% 23%, 53% 28%, 47% 28%, 41% 25%, 36% 28%, 28% 43%, 27% 43%, 20% 49%, 17% 54%, 17.5% 59%, 31% 67%, 29% 72%, 31% 74.5%, 40% 78%, 40% 79.5%, 47% 75%, 50% 75%, 56% 78%, 60% 77%, 69.5% 71%, 76% 62%, 78.5% 70.5%, 77% 71%, 82% 72%, 86% 65%, 85% 64%, 86% 66.5%, 97% 67%);
 }
 
 .horizontal-top {
@@ -1313,10 +1312,11 @@ body {
       transform: skewX(25deg);
 }
 
+
 .horizontal-top-a42 {
-      top: 203px;
+      top: 205px;
       left: 437px;
-      width: 12px;
+      width: 13px;
       border: 0;
       height: 3px;
       border-top: 1px solid #f3cd44;
@@ -1326,7 +1326,7 @@ body {
 }
 
 .horizontal-top-a43 {
-      top: 210px;
+      top: 211px;
       left: 436px;
       width: 14px;
       border: 0;
@@ -1338,7 +1338,7 @@ body {
 }
 
 .horizontal-top-a44 {
-      top: 216px;
+      top: 217px;
       left: 436px;
       width: 14px;
       border: 0;
@@ -1350,7 +1350,7 @@ body {
 }
 
 .horizontal-top-a45 {
-      top: 222px;
+      top: 223px;
       left: 436px;
       width: 14px;
       border: 0;
@@ -1362,7 +1362,7 @@ body {
 }
 
 .horizontal-top-a46 {
-      top: 229px;
+      top: 230px;
       left: 436px;
       width: 14px;
       border: 0;
@@ -1374,7 +1374,7 @@ body {
 }
 
 .horizontal-top-a47 {
-      top: 235px;
+      top: 236px;
       left: 437px;
       width: 13px;
       border: 0;
@@ -1386,7 +1386,7 @@ body {
 }
 
 .horizontal-top-a48 {
-      top: 241px;
+      top: 242px;
       left: 436px;
       width: 13px;
       border: 0;
@@ -1480,7 +1480,6 @@ body {
       transform: rotate(28deg);
       z-index: 19;
 }
-
 .horizontal-top-a56 {
       top: 291.5px;
       left: 428px;
@@ -1575,11 +1574,16 @@ body {
 
 .horizontal-top-9 {
       top: 179px;
-      left: 389px;
-      width: 4px;
-      height: 1px;
-      border-left: 0;
+      left: 388.3px;
+      width: 3.5px;
+      height: 2px;
+      border-radius: 0 0 2px 2px;
+      transform: skewX(18deg);
+      border-bottom: 1px solid #f3cd44;
+      border-right: 2px solid #f3cd44;
+      border-left: 2px solid #f3cd44;
 }
+
 
 .horizontal-top-10 {
       top: 193px;
@@ -1592,68 +1596,77 @@ body {
       border-left: 1.5px solid #f3cd44;
 }
 
+
 .horizontal-top-11 {
-      top: 187px;
+      top: 185px;
       left: 391px;
-      width: 39px;
-      height: 13px;
+      width: 38px;
+      height: 17px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-12 {
       top: 193px;
       left: 386px;
       width: 43px;
-      height: 14px;
-      transform: skewX(-135deg);
+      height: 15px;
+      transform: skewX(-136deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-13 {
-      top: 199px;
+      top: 201px;
       left: 380px;
-      width: 49px;
-      height: 14px;
+      width: 50px;
+      height: 13px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-14 {
-      top: 209px;
+      top: 211px;
       left: 374px;
       width: 57px;
-      height: 10px;
-      transform: skewX(-135deg);
+      height: 9px;
+      transform: skewX(-134deg);
+      border-radius: 2px 0 0 0;
 }
 
 .horizontal-top-15 {
       top: 218px;
-      left: 370px;
-      width: 62px;
+      left: 368px;
+      width: 63px;
       height: 8px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-16 {
-      top: 225px;
-      left: 364px;
+      top: 224px;
+      left: 363px;
       width: 69px;
-      height: 7px;
+      height: 9px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-17 {
-      top: 230px;
-      left: 357px;
-      width: 75px;
-      height: 8px;
+      top: 229px;
+      left: 358px;
+      width: 73px;
+      height: 10px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-18 {
-      top: 237px;
-      left: 352px;
-      width: 80px;
-      height: 8px;
+      top: 234px;
+      left: 353px;
+      width: 77px;
+      height: 11px;
       transform: skewX(-135deg);
+      border-radius: 3px 0 0 0;
 }
 
 .horizontal-top-19 {
