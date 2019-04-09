@@ -7,6 +7,7 @@ If you want to help the project, open issues and buy me a beer... ;)
 
 ------------------------------------
 BITCOIN ADDRESS
+
 329uUBQfCqk7BEBbNYuN3MJYmFfB9mhwsn
 ------------------------------------
 
