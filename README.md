@@ -9,6 +9,7 @@ If you help the project and buy me a beer... ;)
 
 BITCOIN ADDRESS
 
+329uUBQfCqk7BEBbNYuN3MJYmFfB9mhwsn
 
 
 https://paulorom.github.io/bitcoin-css/
