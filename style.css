@@ -5,7 +5,7 @@
 
 body {
       background: black;
-      /*overflow: hidden;*/
+      overflow: hidden;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 }
 
 .coin {
-      opacity: 0.5;
+      opacity: 1;
       width: 100%;
       height: 100%;
       position: relative;
@@ -23,39 +23,19 @@ body {
       background-image: linear-gradient(-20deg, #542a04 15%, #c46b17 50%, #8a430f 86%);
       border: 12px solid #f3cd44;
       background: #ba6416;
-      /* transition-duration: 1s;*/
 }
-
-
-/*
-.coin:hover {
-     transform: perspective(500px) rotateY(180deg);
-     transform-style: preserve-3d;
-}*/
 
 .ilumination {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      opacity: 0;
-      width: 474px;
-      z-index: 500;
-      height: 474px;
+      width: calc(100% + 27px);
+      height: calc(100% + 27px);
+      position: absolute;
+      opacity: 10;
+      top: 0;
+      margin: -13px;
+      z-index: 6000;
+      left: 0;
       border-radius: 80%;
-      background-image: linear-gradient(-20deg, #542a04 15%, transparent 50%, #8a430f 86%);
-}
-
-.coin-gab {
-      background-image: url(bitcoin.png);
-      background-position-x: center;
-      background-size: cover;
-      width: 530px;
-      height: 530px;
-      border-radius: 80%;
-      z-index: -10;
-      top: -976px;
-      left: -28px;
-      position: relative;
+      background: linear-gradient(318deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 0, 0) 50%, rgba(0, 0, 0, 0.91) 100%);
 }
 
 .letters span {
