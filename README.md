@@ -1,4 +1,4 @@
-# bitcoin-pure-css
+# bitcoin-css
 Bitcoin coin made in pure CSS
 
 Bitcoin coin made in pure CSS. Chrome compatible. Not tested in other browsers yet.
