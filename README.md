@@ -12,3 +12,8 @@ BITCOIN ADDRESS
 ------------------------------------
 
 https://paulorom.github.io/bitcoin-css/
+
+    
+(c) 2019 Paulo Miranda
+MIT License | https://opensource.org/licenses/MIT
+
