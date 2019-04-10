@@ -17,6 +17,8 @@ body {
 .link-profile {
     font-size: 12px;
     text-align: center;
+    position: static;
+    padding: 0 0 50px;
     font-family: 'Century Gothic',Arial,sans-serif;
     color: #68705e;
 }
