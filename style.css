@@ -14,6 +14,13 @@ body {
       height: 450px;
 }
 
+.link-profile {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Century Gothic',Arial,sans-serif;
+    color: #68705e;
+}
+
 .coin {
       opacity: 1;
       width: 100%;
