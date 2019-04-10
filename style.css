@@ -35,7 +35,7 @@ body {
       z-index: 6000;
       left: 0;
       border-radius: 80%;
-      background: linear-gradient(318deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 0, 0) 50%, rgba(0, 0, 0, 0.91) 100%);
+      background: linear-gradient(318deg, rgba(0, 0, 0, 0.9) 15%, rgba(255, 255, 0, 0) 50%, rgba(0, 0, 0, 0.0) 100%);
 }
 
 .letters span {
