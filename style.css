@@ -23,6 +23,10 @@ body {
     color: #68705e;
 }
 
+.link-profile a {
+    color: #68705e;
+}
+
 .coin {
       opacity: 1;
       width: 100%;
