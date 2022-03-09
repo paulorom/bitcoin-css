@@ -8,7 +8,7 @@ If you want to help the project, open issues and buy me a beer... ;)
 ------------------------------------
 BITCOIN ADDRESS
 
-bc1qhkxswtk5sxc5ywmwq4vyjm67dmcxmk7dhx8z3q
+bc1q9zj32m9raulcedgmujx5zfy2hpt50793tur0dd
 ------------------------------------
 
 https://paulorom.github.io/bitcoin-css/
