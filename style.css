@@ -7,6 +7,10 @@ body {
       background: black;
 }
 
+h1 {
+      color: #fff;
+}
+
 .container {
       margin: 5% auto;
       width: 450px;
