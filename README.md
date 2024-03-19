@@ -1,3 +1,6 @@
+#demo
+https://paulorom.github.io/bitcoin-css/
+
 # bitcoin-css
 Bitcoin coin made in pure CSS
 
@@ -11,7 +14,7 @@ BITCOIN ADDRESS
 bc1qqzkpmfpuuw7ketdf0vdcmtzxvkp5kkur0wkluq
 ------------------------------------
 
-https://paulorom.github.io/bitcoin-css/
+
 
     
 (c) 2019 Paulo Miranda
