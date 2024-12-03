@@ -11,7 +11,7 @@ If you want to help the project, open issues and buy me a beer... ;)
 ------------------------------------
 BITCOIN ADDRESS
 
-bc1qqzkpmfpuuw7ketdf0vdcmtzxvkp5kkur0wkluq
+bc1qzyhu3938uj9ar6gn7xum4msssy7rg7kcnw38hu
 ------------------------------------
 
 
